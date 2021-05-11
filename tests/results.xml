@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <testsuites failures="0" name="TestXML" tests="1" time="0">
-	<testsuite name="Field" failures="0"  tests="11" time="0">
+	<testsuite name="Field" failures="0"  tests="12" time="0">
 		<testcase name=" surrounding positions in top right corner" time="0"></testcase>
 		<testcase name=" surrounding positions in bottom right corner" time="0"></testcase>
 		<testcase name=" setting a player updates the tackle array" time="0"></testcase>
@@ -8,6 +8,7 @@
 		<testcase name=" can create field" time="0"></testcase>
 		<testcase name=" field starts empty" time="0"></testcase>
 		<testcase name=" surrounding positions in top left corner" time="0"></testcase>
+		<testcase name=" can removing a player updates tackle array" time="0"></testcase>
 		<testcase name=" can remove a player from the field" time="0"></testcase>
 		<testcase name=" can set player" time="0"></testcase>
 		<testcase name=" surrounding positions in a general position" time="0"></testcase>

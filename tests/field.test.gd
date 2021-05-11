@@ -101,4 +101,9 @@ func test_can_removing_a_player_updates_tackle_array() -> void:
 	var position = Vector2(5, 6)
 	field.set_player(player, position)
 	field.remove_player(position)
-	asserts.is_null(field.get_player(position))
+	var surrounding_positions = field.get_surrounding_positions(position)
+	var sum = 0
+	var tackle_array = field.get_tackle_array()
+	for sp in surrounding_positions:
+		sum += tackle_array[sp.x][sp.y]
+	asserts.is_equal(sum, 0)

@@ -32,14 +32,26 @@ func get_player(position):
 
 func set_player(player, position):
 	_player_array[position.x][position.y] = player
-	_update_surrounding_positions(position)
+	_add_tackle_zone(position)
+
+func remove_player(position:Vector2) -> void:
+	_player_array[position.x][position.y] = null
+	_remove_tackle_zone(position)
 
 
-func _update_surrounding_positions(position) -> void:
+func _add_tackle_zone(position) -> void:
+	_update_surrounding_positions(position, 1)
+
+
+func _remove_tackle_zone(position) -> void:
+	_update_surrounding_positions(position, -1)
+
+
+func _update_surrounding_positions(position, value) -> void:
 	var surrounding_positions = get_surrounding_positions(position)
 	for sp in surrounding_positions:
-		_tackle_array[sp.x][sp.y] += 1
-	
+		_tackle_array[sp.x][sp.y] += value
+
 
 func get_tackle_array():
 	return _tackle_array
@@ -52,7 +64,6 @@ func get_surrounding_positions(position):
 			var surrounding_position = Vector2(x, y)
 			if position != surrounding_position and is_inside_the_field(surrounding_position):
 				positions.append(surrounding_position)
-#				print(surrounding_position)
 	return positions
 
 
@@ -60,7 +71,4 @@ func is_inside_the_field(position) -> bool:
 	return position.x >= 0 and position.x < WIDTH and position.y >= 0 and position.y < HEIGHT
 
 
-func remove_player(position:Vector2) -> void:
-	_player_array[position.x][position.y] = null
-		
-	
+

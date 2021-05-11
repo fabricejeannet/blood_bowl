@@ -19,4 +19,4 @@ func test_coach_starts_with_zero_attempts() -> void:
 func test_can_increment_attempt_count() -> void:
 	coach.increment_attempt_count()
 	asserts.is_equal(coach.get_attempt_count(), 1)
-	
+

@@ -1,19 +1,17 @@
 <?xml version="1.0" ?>
-<testsuites failures="0" name="TestXML" tests="2" time="0">
-	<testsuite name="" failures="0"  tests="7" time="0">
-		<testcase name=" both coaches must be set" time="0"></testcase>
-		<testcase name=" can set two coaches" time="0"></testcase>
-		<testcase name=" cannot go to the second halftime until both coaches has completed all their attempts" time="0"></testcase>
-		<testcase name=" there has to be two different coaches" time="0"></testcase>
-		<testcase name=" game starts at the first half time" time="0"></testcase>
-		<testcase name=" can create game" time="0"></testcase>
-		<testcase name=" game has a 15x26 field" time="0"></testcase>
-	</testsuite>
-
-	<testsuite name="" failures="0"  tests="3" time="0">
-		<testcase name=" can create coach" time="0"></testcase>
-		<testcase name=" coach starts with zero attempts" time="0"></testcase>
-		<testcase name=" can increment attempt count" time="0"></testcase>
+<testsuites failures="0" name="TestXML" tests="1" time="0">
+	<testsuite name="Field" failures="0"  tests="11" time="0">
+		<testcase name=" surrounding positions in top right corner" time="0"></testcase>
+		<testcase name=" surrounding positions in bottom right corner" time="0"></testcase>
+		<testcase name=" setting a player updates the tackle array" time="0"></testcase>
+		<testcase name=" tackle array starts empty" time="0"></testcase>
+		<testcase name=" can create field" time="0"></testcase>
+		<testcase name=" field starts empty" time="0"></testcase>
+		<testcase name=" surrounding positions in top left corner" time="0"></testcase>
+		<testcase name=" can remove a player from the field" time="0"></testcase>
+		<testcase name=" can set player" time="0"></testcase>
+		<testcase name=" surrounding positions in a general position" time="0"></testcase>
+		<testcase name=" surrounding positions in bottom left corner" time="0"></testcase>
 	</testsuite>
 
 </testsuites>

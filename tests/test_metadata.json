@@ -1,8 +1,23 @@
 {
-	"res://tests/game.test.gd": {
-		"path": "res://tests/game.test.gd",
+	"res://tests/player_scene.test.gd": {
+		"path": "res://tests/player_scene.test.gd",
 		"tags": [
 
-		]
+		],
+		"passing": true
+	},
+	"res://tests/field_scene.test.gd": {
+		"path": "res://tests/field_scene.test.gd",
+		"tags": [
+
+		],
+		"passing": true
+	},
+	"res://tests/field.test.gd": {
+		"path": "res://tests/field.test.gd",
+		"tags": [
+
+		],
+		"passing": true
 	}
 }

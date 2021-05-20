@@ -107,3 +107,4 @@ func test_can_removing_a_player_updates_tackle_array() -> void:
 	for sp in surrounding_positions:
 		sum += tackle_array[sp.x][sp.y]
 	asserts.is_equal(sum, 0)
+	

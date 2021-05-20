@@ -1,12 +1,14 @@
 extends WAT.Test
 
-var Game = load("res://scripts/game.gd")
+var Game = preload("res://scenes/game.tscn")
 var game = null
 var coach1 = null
 var coach2 = null
 
 func pre():
-	game = Game.new()
+	game = Game.instance()
+	game._ready()
+	
 	coach1 = Coach.new()
 	coach2 = Coach.new()	
 
@@ -56,3 +58,6 @@ func test_cannot_go_to_the_second_halftime_until_both_coaches_has_completed_all_
 	coach2._attempt_count = 8
 	game.set_coaches(coach1, coach2)
 	asserts.is_true(game.next_half_time())
+
+#func test_game_has_a_field_scene() -> void:
+#	asserts.is_not_null(game.field_scene)

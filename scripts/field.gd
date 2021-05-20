@@ -1,7 +1,13 @@
 class_name Field
+extends Node2D
 
 var _player_array = []
 var _tackle_array = []
+
+var status
+var selected_player = null
+
+onready var tilemap = $TileMap
 
 const WIDTH = 15
 const HEIGHT = 26

@@ -14,12 +14,12 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://scripts/coach.gd"
 }, {
-"base": "Reference",
+"base": "Node2D",
 "class": "Field",
 "language": "GDScript",
 "path": "res://scripts/field.gd"
 }, {
-"base": "Reference",
+"base": "Node2D",
 "class": "Game",
 "language": "GDScript",
 "path": "res://scripts/game.gd"
@@ -32,7 +32,7 @@ _global_script_classes=[ {
 "base": "Reference",
 "class": "Player",
 "language": "GDScript",
-"path": "res://scripts/player_scene.gd"
+"path": "res://scripts/player.gd"
 }, {
 "base": "Reference",
 "class": "PlayerStatus",
@@ -82,7 +82,7 @@ config/icon="res://icon.png"
 
 [editor_plugins]
 
-enabled=PoolStringArray( "res://addons/WAT/plugin.cfg" )
+enabled=PoolStringArray( "WAT" )
 
 [physics]
 

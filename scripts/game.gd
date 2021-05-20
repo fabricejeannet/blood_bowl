@@ -1,6 +1,7 @@
 class_name Game
+extends Node2D
 
-var _field:Field
+
 var _coach1:Coach
 var _coach2:Coach
 var _current_haltime 
@@ -8,23 +9,28 @@ var _current_haltime
 const FIRST_HALFTIME = 0
 const SECOND_HALFTIME = 1
 
+onready var _field = find_node("Field")
 
-func _init():
-	_field = Field.new()
+func _ready() -> void:
 	_current_haltime = FIRST_HALFTIME
+
 
 func get_field() -> Field:
 	return _field
+
 
 func set_coaches (coach1, coach2) -> void:
 	_coach1 = coach1
 	_coach2 = coach2
 
+
 func coaches_are_set() -> bool:
 	return _coach1 != null and _coach2 != null and _coach1 != _coach2
 
+
 func is_in_the_first_half_time() -> bool:
 	return _current_haltime == FIRST_HALFTIME
+
 
 func is_in_the_second_half_time() -> bool:
 	return _current_haltime == SECOND_HALFTIME

@@ -1,17 +1,21 @@
 extends WAT.Test 
 
-var Field = load("res://scripts/field.gd")
+var Field = preload("res://scenes/field.tscn")
 var field = null
 
 func pre():
-	field = Field.new()
-
+	field = Field.instance()
+	field._ready()
 
 func test_can_create_field() -> void:
 	asserts.is_not_null(field)
 
 
-func test_field_starts_empty() -> void:
+func test_has_a_tile_map() -> void:
+	asserts.is_not_null(field.tilemap)
+
+
+func test_player_array_starts_empty() -> void:
 	var is_empty = true
 	for x in field.WIDTH:
 		for y in field.HEIGHT:
@@ -79,6 +83,7 @@ func test_surrounding_positions_in_top_right_corner() -> void:
 	asserts.is_equal(surrounding_positions.count(Vector2(field.WIDTH - 2, 1)), 1)
 	asserts.is_equal(surrounding_positions.count(Vector2(field.WIDTH - 1, 1)), 1)
 
+
 func test_setting_a_player_updates_the_tackle_array() -> void:
 	var player = Player.new()
 	var position = Vector2(0, 0)
@@ -88,7 +93,8 @@ func test_setting_a_player_updates_the_tackle_array() -> void:
 	asserts.is_equal(1, tackle_array[1][1])
 	asserts.is_equal(1, tackle_array[0][1])
 
-func test_can_remove_a_player_from_the_field() -> void:
+
+func test_can_remove_a_player_from_the_player_array() -> void:
 	var player = Player.new()
 	var position = Vector2(5, 6)
 	field.set_player(player, position)

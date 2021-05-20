@@ -1,13 +1,6 @@
 {
-	"res://tests/player_scene.test.gd": {
-		"path": "res://tests/player_scene.test.gd",
-		"tags": [
-
-		],
-		"passing": true
-	},
-	"res://tests/field_scene.test.gd": {
-		"path": "res://tests/field_scene.test.gd",
+	"res://tests/game.test.gd": {
+		"path": "res://tests/game.test.gd",
 		"tags": [
 
 		],
@@ -15,6 +8,13 @@
 	},
 	"res://tests/field.test.gd": {
 		"path": "res://tests/field.test.gd",
+		"tags": [
+
+		],
+		"passing": true
+	},
+	"res://tests/player.test.gd": {
+		"path": "res://tests/player.test.gd",
 		"tags": [
 
 		],

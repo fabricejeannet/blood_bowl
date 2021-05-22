@@ -78,6 +78,7 @@ Display=8
 [application]
 
 config/name="blood_bowl"
+run/main_scene="res://scenes/game.tscn"
 config/icon="res://icon.png"
 
 [editor_plugins]

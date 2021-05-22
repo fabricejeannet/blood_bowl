@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://assets/img/tile_selector.png" type="Texture" id=1]
+[ext_resource path="res://assets/img/tackle_tile.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="tackle_tile" type="Sprite" parent="."]
+position = Vector2( 542, 1107 )
+texture = ExtResource( 2 )
+
+[node name="tile_selector" type="Sprite" parent="."]
+position = Vector2( 542, 1107 )
+texture = ExtResource( 1 )

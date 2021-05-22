@@ -1,0 +1,4659 @@
+[gd_scene load_steps=932 format=2]
+
+[ext_resource path="res://assets/img/players/othrower1an.png" type="Texture" id=1]
+[ext_resource path="res://assets/img/players/cddwarf5an.png" type="Texture" id=2]
+[ext_resource path="res://assets/img/players/olineman1b.png" type="Texture" id=3]
+[ext_resource path="res://assets/img/players/amlineman1an.png" type="Texture" id=4]
+[ext_resource path="res://assets/img/players/amcatcher1b.png" type="Texture" id=5]
+[ext_resource path="res://assets/img/players/amblitzer1an.png" type="Texture" id=6]
+[ext_resource path="res://assets/img/players/LMSKINK6.png" type="Texture" id=7]
+[ext_resource path="res://assets/img/players/lmsaurus6.png" type="Texture" id=8]
+[ext_resource path="res://assets/img/players/minotaur2ban.png" type="Texture" id=9]
+[ext_resource path="res://assets/img/players/nrotter1ban.png" type="Texture" id=10]
+[ext_resource path="res://assets/img/players/NROTTER2.png" type="Texture" id=11]
+[ext_resource path="res://assets/img/players/OGRE2.png" type="Texture" id=12]
+[ext_resource path="res://assets/img/players/OGRE5AN.png" type="Texture" id=13]
+[ext_resource path="res://assets/img/players/scurrier2ban.png" type="Texture" id=14]
+[ext_resource path="res://assets/img/players/weblitzer1.png" type="Texture" id=15]
+[ext_resource path="res://assets/img/players/weblitzer1an.png" type="Texture" id=16]
+[ext_resource path="res://assets/img/players/weblitzer1b.png" type="Texture" id=17]
+[ext_resource path="res://assets/img/players/weblitzer1ban.png" type="Texture" id=18]
+[ext_resource path="res://assets/img/players/weblitzer2.png" type="Texture" id=19]
+[ext_resource path="res://assets/img/players/weblitzer2an.png" type="Texture" id=20]
+[ext_resource path="res://assets/img/players/weblitzer2b.png" type="Texture" id=21]
+[ext_resource path="res://assets/img/players/weblitzer2ban.png" type="Texture" id=22]
+[ext_resource path="res://assets/img/players/wecatcher1.png" type="Texture" id=23]
+[ext_resource path="res://assets/img/players/wecatcher1an.png" type="Texture" id=24]
+[ext_resource path="res://assets/img/players/CDDWARF1.png" type="Texture" id=25]
+[ext_resource path="res://assets/img/players/amcatcher1.png" type="Texture" id=26]
+[ext_resource path="res://assets/img/players/amcatcher1an.png" type="Texture" id=27]
+[ext_resource path="res://assets/img/players/amblitzer1b.png" type="Texture" id=28]
+[ext_resource path="res://assets/img/players/lmsaurus5b.png" type="Texture" id=29]
+[ext_resource path="res://assets/img/players/hlineman3b.png" type="Texture" id=30]
+[ext_resource path="res://assets/img/players/hlineman3an.png" type="Texture" id=31]
+[ext_resource path="res://assets/img/players/hlineman3.png" type="Texture" id=32]
+[ext_resource path="res://assets/img/players/hlineman2ban.png" type="Texture" id=33]
+[ext_resource path="res://assets/img/players/hlineman2b.png" type="Texture" id=34]
+[ext_resource path="res://assets/img/players/hlineman2an.png" type="Texture" id=35]
+[ext_resource path="res://assets/img/players/hlineman2.png" type="Texture" id=36]
+[ext_resource path="res://assets/img/players/hlineman1ban.png" type="Texture" id=37]
+[ext_resource path="res://assets/img/players/goblin5an.png" type="Texture" id=38]
+[ext_resource path="res://assets/img/players/bonusogre3an.png" type="Texture" id=39]
+[ext_resource path="res://assets/img/players/chalfling5ban.png" type="Texture" id=40]
+[ext_resource path="res://assets/img/players/lmsaurus5ban.png" type="Texture" id=41]
+[ext_resource path="res://assets/img/players/amblitzer1ban.png" type="Texture" id=42]
+[ext_resource path="res://assets/img/players/amlineman1.png" type="Texture" id=43]
+[ext_resource path="res://assets/img/players/amblitzer2ban.png" type="Texture" id=44]
+[ext_resource path="res://assets/img/players/amblitzer2.png" type="Texture" id=45]
+[ext_resource path="res://assets/img/players/amlineman1b.png" type="Texture" id=46]
+[ext_resource path="res://assets/img/players/amblitzer2an.png" type="Texture" id=47]
+[ext_resource path="res://assets/img/players/amcatcher1ban.png" type="Texture" id=48]
+[ext_resource path="res://assets/img/players/cddwarf5b.png" type="Texture" id=49]
+[ext_resource path="res://assets/img/players/amblitzer2b.png" type="Texture" id=50]
+[ext_resource path="res://assets/img/players/amblitzer1.png" type="Texture" id=51]
+[ext_resource path="res://assets/img/players/amlineman1ban.png" type="Texture" id=52]
+[ext_resource path="res://assets/img/players/amlineman2.png" type="Texture" id=53]
+[ext_resource path="res://assets/img/players/amlineman2an.png" type="Texture" id=54]
+[ext_resource path="res://assets/img/players/amlineman2b.png" type="Texture" id=55]
+[ext_resource path="res://assets/img/players/amlineman2ban.png" type="Texture" id=56]
+[ext_resource path="res://assets/img/players/amlineman3.png" type="Texture" id=57]
+[ext_resource path="res://assets/img/players/amlineman3an.png" type="Texture" id=58]
+[ext_resource path="res://assets/img/players/amlineman3b.png" type="Texture" id=59]
+[ext_resource path="res://assets/img/players/amlineman3ban.png" type="Texture" id=60]
+[ext_resource path="res://assets/img/players/amlineman4.png" type="Texture" id=61]
+[ext_resource path="res://assets/img/players/amlineman4an.png" type="Texture" id=62]
+[ext_resource path="res://assets/img/players/amlineman4b.png" type="Texture" id=63]
+[ext_resource path="res://assets/img/players/amlineman4ban.png" type="Texture" id=64]
+[ext_resource path="res://assets/img/players/amthrower1.png" type="Texture" id=65]
+[ext_resource path="res://assets/img/players/amthrower1an.png" type="Texture" id=66]
+[ext_resource path="res://assets/img/players/amthrower1b.png" type="Texture" id=67]
+[ext_resource path="res://assets/img/players/amthrower1ban.png" type="Texture" id=68]
+[ext_resource path="res://assets/img/players/bonusogre1.png" type="Texture" id=69]
+[ext_resource path="res://assets/img/players/bonusogre1an.png" type="Texture" id=70]
+[ext_resource path="res://assets/img/players/bonusogre1b.png" type="Texture" id=71]
+[ext_resource path="res://assets/img/players/bonusogre1ban.png" type="Texture" id=72]
+[ext_resource path="res://assets/img/players/bonusogre2.png" type="Texture" id=73]
+[ext_resource path="res://assets/img/players/bonusogre2an.png" type="Texture" id=74]
+[ext_resource path="res://assets/img/players/bonusogre2b.png" type="Texture" id=75]
+[ext_resource path="res://assets/img/players/bonusogre2ban.png" type="Texture" id=76]
+[ext_resource path="res://assets/img/players/bonusogre3.png" type="Texture" id=77]
+[ext_resource path="res://assets/img/players/bonusogre3b.png" type="Texture" id=78]
+[ext_resource path="res://assets/img/players/bonusogre3ban.png" type="Texture" id=79]
+[ext_resource path="res://assets/img/players/bonusogre4.png" type="Texture" id=80]
+[ext_resource path="res://assets/img/players/bonusogre4an.png" type="Texture" id=81]
+[ext_resource path="res://assets/img/players/bonusogre4b.png" type="Texture" id=82]
+[ext_resource path="res://assets/img/players/bonusogre4ban.png" type="Texture" id=83]
+[ext_resource path="res://assets/img/players/bonusogre5.png" type="Texture" id=84]
+[ext_resource path="res://assets/img/players/bonusogre5an.png" type="Texture" id=85]
+[ext_resource path="res://assets/img/players/bonusogre5b.png" type="Texture" id=86]
+[ext_resource path="res://assets/img/players/bonusogre5ban.png" type="Texture" id=87]
+[ext_resource path="res://assets/img/players/bonusogre6.png" type="Texture" id=88]
+[ext_resource path="res://assets/img/players/bonusogre6an.png" type="Texture" id=89]
+[ext_resource path="res://assets/img/players/bonusogre6b.png" type="Texture" id=90]
+[ext_resource path="res://assets/img/players/bonusogre6ban.png" type="Texture" id=91]
+[ext_resource path="res://assets/img/players/bonusogre7.png" type="Texture" id=92]
+[ext_resource path="res://assets/img/players/bonusogre7an.png" type="Texture" id=93]
+[ext_resource path="res://assets/img/players/bonusogre7b.png" type="Texture" id=94]
+[ext_resource path="res://assets/img/players/bonusogre7ban.png" type="Texture" id=95]
+[ext_resource path="res://assets/img/players/bonusogre8.png" type="Texture" id=96]
+[ext_resource path="res://assets/img/players/bonusogre8an.png" type="Texture" id=97]
+[ext_resource path="res://assets/img/players/bonusogre8b.png" type="Texture" id=98]
+[ext_resource path="res://assets/img/players/bonusogre8ban.png" type="Texture" id=99]
+[ext_resource path="res://assets/img/players/cbeastman1.png" type="Texture" id=100]
+[ext_resource path="res://assets/img/players/cbeastman1an.png" type="Texture" id=101]
+[ext_resource path="res://assets/img/players/cbeastman1b.png" type="Texture" id=102]
+[ext_resource path="res://assets/img/players/cbeastman1ban.png" type="Texture" id=103]
+[ext_resource path="res://assets/img/players/cbeastman2.png" type="Texture" id=104]
+[ext_resource path="res://assets/img/players/cbeastman2an.png" type="Texture" id=105]
+[ext_resource path="res://assets/img/players/cbeastman2b.png" type="Texture" id=106]
+[ext_resource path="res://assets/img/players/cbeastman2ban.png" type="Texture" id=107]
+[ext_resource path="res://assets/img/players/cbeastman3.png" type="Texture" id=108]
+[ext_resource path="res://assets/img/players/cbeastman3an.png" type="Texture" id=109]
+[ext_resource path="res://assets/img/players/cbeastman3b.png" type="Texture" id=110]
+[ext_resource path="res://assets/img/players/cbeastman3ban.png" type="Texture" id=111]
+[ext_resource path="res://assets/img/players/cbeastman4.png" type="Texture" id=112]
+[ext_resource path="res://assets/img/players/cbeastman4an.png" type="Texture" id=113]
+[ext_resource path="res://assets/img/players/cbeastman4b.png" type="Texture" id=114]
+[ext_resource path="res://assets/img/players/cbeastman4ban.png" type="Texture" id=115]
+[ext_resource path="res://assets/img/players/cddwarf1an.png" type="Texture" id=116]
+[ext_resource path="res://assets/img/players/cddwarf1b.png" type="Texture" id=117]
+[ext_resource path="res://assets/img/players/cddwarf1ban.png" type="Texture" id=118]
+[ext_resource path="res://assets/img/players/CDDWARF2.png" type="Texture" id=119]
+[ext_resource path="res://assets/img/players/cddwarf2an.png" type="Texture" id=120]
+[ext_resource path="res://assets/img/players/cddwarf2b.png" type="Texture" id=121]
+[ext_resource path="res://assets/img/players/cddwarf2ban.png" type="Texture" id=122]
+[ext_resource path="res://assets/img/players/CDDWARF3.png" type="Texture" id=123]
+[ext_resource path="res://assets/img/players/cddwarf3an.png" type="Texture" id=124]
+[ext_resource path="res://assets/img/players/cddwarf3b.png" type="Texture" id=125]
+[ext_resource path="res://assets/img/players/cddwarf3ban.png" type="Texture" id=126]
+[ext_resource path="res://assets/img/players/CDDWARF4.png" type="Texture" id=127]
+[ext_resource path="res://assets/img/players/cddwarf4an.png" type="Texture" id=128]
+[ext_resource path="res://assets/img/players/cddwarf4b.png" type="Texture" id=129]
+[ext_resource path="res://assets/img/players/cddwarf4ban.png" type="Texture" id=130]
+[ext_resource path="res://assets/img/players/CDDWARF5.png" type="Texture" id=131]
+[ext_resource path="res://assets/img/players/cddwarf5ban.png" type="Texture" id=132]
+[ext_resource path="res://assets/img/players/CDDWARF6.png" type="Texture" id=133]
+[ext_resource path="res://assets/img/players/cddwarf6an.png" type="Texture" id=134]
+[ext_resource path="res://assets/img/players/cddwarf6b.png" type="Texture" id=135]
+[ext_resource path="res://assets/img/players/cddwarf6ban.png" type="Texture" id=136]
+[ext_resource path="res://assets/img/players/cdhobgoblin1.png" type="Texture" id=137]
+[ext_resource path="res://assets/img/players/cdhobgoblin1an.png" type="Texture" id=138]
+[ext_resource path="res://assets/img/players/cdhobgoblin1b.png" type="Texture" id=139]
+[ext_resource path="res://assets/img/players/cdhobgoblin1ban.png" type="Texture" id=140]
+[ext_resource path="res://assets/img/players/cdhobgoblin2.png" type="Texture" id=141]
+[ext_resource path="res://assets/img/players/cdhobgoblin2an.png" type="Texture" id=142]
+[ext_resource path="res://assets/img/players/cdhobgoblin2b.png" type="Texture" id=143]
+[ext_resource path="res://assets/img/players/cdhobgoblin2ban.png" type="Texture" id=144]
+[ext_resource path="res://assets/img/players/CENTAUR1.png" type="Texture" id=145]
+[ext_resource path="res://assets/img/players/centaur1an.png" type="Texture" id=146]
+[ext_resource path="res://assets/img/players/centaur1b.png" type="Texture" id=147]
+[ext_resource path="res://assets/img/players/centaur1ban.png" type="Texture" id=148]
+[ext_resource path="res://assets/img/players/CENTAUR2.png" type="Texture" id=149]
+[ext_resource path="res://assets/img/players/centaur2an.png" type="Texture" id=150]
+[ext_resource path="res://assets/img/players/centaur2b.png" type="Texture" id=151]
+[ext_resource path="res://assets/img/players/centaur2ban.png" type="Texture" id=152]
+[ext_resource path="res://assets/img/players/chalfling1.png" type="Texture" id=153]
+[ext_resource path="res://assets/img/players/chalfling1an.png" type="Texture" id=154]
+[ext_resource path="res://assets/img/players/chalfling1b.png" type="Texture" id=155]
+[ext_resource path="res://assets/img/players/chalfling1ban.png" type="Texture" id=156]
+[ext_resource path="res://assets/img/players/chalfling2.png" type="Texture" id=157]
+[ext_resource path="res://assets/img/players/chalfling2an.png" type="Texture" id=158]
+[ext_resource path="res://assets/img/players/chalfling2b.png" type="Texture" id=159]
+[ext_resource path="res://assets/img/players/chalfling2ban.png" type="Texture" id=160]
+[ext_resource path="res://assets/img/players/chalfling3.png" type="Texture" id=161]
+[ext_resource path="res://assets/img/players/chalfling3an.png" type="Texture" id=162]
+[ext_resource path="res://assets/img/players/chalfling3b.png" type="Texture" id=163]
+[ext_resource path="res://assets/img/players/chalfling3ban.png" type="Texture" id=164]
+[ext_resource path="res://assets/img/players/chalfling4.png" type="Texture" id=165]
+[ext_resource path="res://assets/img/players/chalfling4an.png" type="Texture" id=166]
+[ext_resource path="res://assets/img/players/chalfling4b.png" type="Texture" id=167]
+[ext_resource path="res://assets/img/players/chalfling4ban.png" type="Texture" id=168]
+[ext_resource path="res://assets/img/players/chalfling5.png" type="Texture" id=169]
+[ext_resource path="res://assets/img/players/chalfling5an.png" type="Texture" id=170]
+[ext_resource path="res://assets/img/players/chalfling5b.png" type="Texture" id=171]
+[ext_resource path="res://assets/img/players/COGRE1.png" type="Texture" id=172]
+[ext_resource path="res://assets/img/players/COGRE1AN.png" type="Texture" id=173]
+[ext_resource path="res://assets/img/players/COGRE1B.png" type="Texture" id=174]
+[ext_resource path="res://assets/img/players/cogre1ban.png" type="Texture" id=175]
+[ext_resource path="res://assets/img/players/cwarrior1.png" type="Texture" id=176]
+[ext_resource path="res://assets/img/players/cwarrior1an.png" type="Texture" id=177]
+[ext_resource path="res://assets/img/players/cwarrior1b.png" type="Texture" id=178]
+[ext_resource path="res://assets/img/players/cwarrior1ban.png" type="Texture" id=179]
+[ext_resource path="res://assets/img/players/cwarrior2.png" type="Texture" id=180]
+[ext_resource path="res://assets/img/players/cwarrior2an.png" type="Texture" id=181]
+[ext_resource path="res://assets/img/players/cwarrior2b.png" type="Texture" id=182]
+[ext_resource path="res://assets/img/players/cwarrior2ban.png" type="Texture" id=183]
+[ext_resource path="res://assets/img/players/cwarrior3.png" type="Texture" id=184]
+[ext_resource path="res://assets/img/players/cwarrior3an.png" type="Texture" id=185]
+[ext_resource path="res://assets/img/players/cwarrior3b.png" type="Texture" id=186]
+[ext_resource path="res://assets/img/players/cwarrior3ban.png" type="Texture" id=187]
+[ext_resource path="res://assets/img/players/cwarrior4.png" type="Texture" id=188]
+[ext_resource path="res://assets/img/players/cwarrior4an.png" type="Texture" id=189]
+[ext_resource path="res://assets/img/players/cwarrior4b.png" type="Texture" id=190]
+[ext_resource path="res://assets/img/players/cwarrior4ban.png" type="Texture" id=191]
+[ext_resource path="res://assets/img/players/dblackhunter1.png" type="Texture" id=192]
+[ext_resource path="res://assets/img/players/dblackhunter1an.png" type="Texture" id=193]
+[ext_resource path="res://assets/img/players/dblackhunter1b.png" type="Texture" id=194]
+[ext_resource path="res://assets/img/players/dblackhunter1ban.png" type="Texture" id=195]
+[ext_resource path="res://assets/img/players/dblitzer1.png" type="Texture" id=196]
+[ext_resource path="res://assets/img/players/dblitzer1an.png" type="Texture" id=197]
+[ext_resource path="res://assets/img/players/dblitzer1b.png" type="Texture" id=198]
+[ext_resource path="res://assets/img/players/dblitzer1ban.png" type="Texture" id=199]
+[ext_resource path="res://assets/img/players/dblitzer2.png" type="Texture" id=200]
+[ext_resource path="res://assets/img/players/dblitzer2an.png" type="Texture" id=201]
+[ext_resource path="res://assets/img/players/dblitzer2b.png" type="Texture" id=202]
+[ext_resource path="res://assets/img/players/dblitzer2ban.png" type="Texture" id=203]
+[ext_resource path="res://assets/img/players/dblunderbuss1.png" type="Texture" id=204]
+[ext_resource path="res://assets/img/players/dblunderbuss1an.png" type="Texture" id=205]
+[ext_resource path="res://assets/img/players/dblunderbuss1b.png" type="Texture" id=206]
+[ext_resource path="res://assets/img/players/dblunderbuss1ban.png" type="Texture" id=207]
+[ext_resource path="res://assets/img/players/dchainsaw1.png" type="Texture" id=208]
+[ext_resource path="res://assets/img/players/dchainsaw1an.png" type="Texture" id=209]
+[ext_resource path="res://assets/img/players/dchainsaw1b.png" type="Texture" id=210]
+[ext_resource path="res://assets/img/players/dchainsaw1ban.png" type="Texture" id=211]
+[ext_resource path="res://assets/img/players/DDAMNED1.png" type="Texture" id=212]
+[ext_resource path="res://assets/img/players/ddamned1an.png" type="Texture" id=213]
+[ext_resource path="res://assets/img/players/ddamned1b.png" type="Texture" id=214]
+[ext_resource path="res://assets/img/players/ddamned1ban.png" type="Texture" id=215]
+[ext_resource path="res://assets/img/players/ddeathroller1.png" type="Texture" id=216]
+[ext_resource path="res://assets/img/players/ddeathroller1an.png" type="Texture" id=217]
+[ext_resource path="res://assets/img/players/ddeathroller1b.png" type="Texture" id=218]
+[ext_resource path="res://assets/img/players/ddeathroller1ban.png" type="Texture" id=219]
+[ext_resource path="res://assets/img/players/deblitzer1.png" type="Texture" id=220]
+[ext_resource path="res://assets/img/players/deblitzer1an.png" type="Texture" id=221]
+[ext_resource path="res://assets/img/players/deblitzer1b.png" type="Texture" id=222]
+[ext_resource path="res://assets/img/players/deblitzer1ban.png" type="Texture" id=223]
+[ext_resource path="res://assets/img/players/delineman1.png" type="Texture" id=224]
+[ext_resource path="res://assets/img/players/delineman1an.png" type="Texture" id=225]
+[ext_resource path="res://assets/img/players/delineman1b.png" type="Texture" id=226]
+[ext_resource path="res://assets/img/players/delineman1ban.png" type="Texture" id=227]
+[ext_resource path="res://assets/img/players/dethrower1.png" type="Texture" id=228]
+[ext_resource path="res://assets/img/players/dethrower1an.png" type="Texture" id=229]
+[ext_resource path="res://assets/img/players/dethrower1b.png" type="Texture" id=230]
+[ext_resource path="res://assets/img/players/dethrower1ban.png" type="Texture" id=231]
+[ext_resource path="res://assets/img/players/dewitchelf1.png" type="Texture" id=232]
+[ext_resource path="res://assets/img/players/dewitchelf1an.png" type="Texture" id=233]
+[ext_resource path="res://assets/img/players/dewitchelf1b.png" type="Texture" id=234]
+[ext_resource path="res://assets/img/players/dewitchelf1ban.png" type="Texture" id=235]
+[ext_resource path="res://assets/img/players/dewitchelf2.png" type="Texture" id=236]
+[ext_resource path="res://assets/img/players/dewitchelf2an.png" type="Texture" id=237]
+[ext_resource path="res://assets/img/players/dewitchelf2b.png" type="Texture" id=238]
+[ext_resource path="res://assets/img/players/dewitchelf2ban.png" type="Texture" id=239]
+[ext_resource path="res://assets/img/players/dlongbeard1.png" type="Texture" id=240]
+[ext_resource path="res://assets/img/players/dlongbeard1an.png" type="Texture" id=241]
+[ext_resource path="res://assets/img/players/dlongbeard1b.png" type="Texture" id=242]
+[ext_resource path="res://assets/img/players/dlongbeard1ban.png" type="Texture" id=243]
+[ext_resource path="res://assets/img/players/dlongbeard2.png" type="Texture" id=244]
+[ext_resource path="res://assets/img/players/dlongbeard2an.png" type="Texture" id=245]
+[ext_resource path="res://assets/img/players/dlongbeard2b.png" type="Texture" id=246]
+[ext_resource path="res://assets/img/players/dlongbeard2ban.png" type="Texture" id=247]
+[ext_resource path="res://assets/img/players/dlongbeard3.png" type="Texture" id=248]
+[ext_resource path="res://assets/img/players/dlongbeard3an.png" type="Texture" id=249]
+[ext_resource path="res://assets/img/players/dlongbeard3b.png" type="Texture" id=250]
+[ext_resource path="res://assets/img/players/dlongbeard3ban.png" type="Texture" id=251]
+[ext_resource path="res://assets/img/players/DRUNNER1.png" type="Texture" id=252]
+[ext_resource path="res://assets/img/players/drunner1an.png" type="Texture" id=253]
+[ext_resource path="res://assets/img/players/drunner1b.png" type="Texture" id=254]
+[ext_resource path="res://assets/img/players/drunner1ban.png" type="Texture" id=255]
+[ext_resource path="res://assets/img/players/DRUNNER2.png" type="Texture" id=256]
+[ext_resource path="res://assets/img/players/drunner2an.png" type="Texture" id=257]
+[ext_resource path="res://assets/img/players/drunner2b.png" type="Texture" id=258]
+[ext_resource path="res://assets/img/players/drunner2ban.png" type="Texture" id=259]
+[ext_resource path="res://assets/img/players/DRUNNER3.png" type="Texture" id=260]
+[ext_resource path="res://assets/img/players/drunner3an.png" type="Texture" id=261]
+[ext_resource path="res://assets/img/players/drunner3b.png" type="Texture" id=262]
+[ext_resource path="res://assets/img/players/drunner3ban.png" type="Texture" id=263]
+[ext_resource path="res://assets/img/players/DSHADOW1.png" type="Texture" id=264]
+[ext_resource path="res://assets/img/players/dshadow1an.png" type="Texture" id=265]
+[ext_resource path="res://assets/img/players/dshadow1b.png" type="Texture" id=266]
+[ext_resource path="res://assets/img/players/dshadow1ban.png" type="Texture" id=267]
+[ext_resource path="res://assets/img/players/DSLAYER1.png" type="Texture" id=268]
+[ext_resource path="res://assets/img/players/dslayer1an.png" type="Texture" id=269]
+[ext_resource path="res://assets/img/players/dslayer1b.png" type="Texture" id=270]
+[ext_resource path="res://assets/img/players/dslayer1ban.png" type="Texture" id=271]
+[ext_resource path="res://assets/img/players/DSLAYER2.png" type="Texture" id=272]
+[ext_resource path="res://assets/img/players/dslayer2an.png" type="Texture" id=273]
+[ext_resource path="res://assets/img/players/dslayer2b.png" type="Texture" id=274]
+[ext_resource path="res://assets/img/players/dslayer2ban.png" type="Texture" id=275]
+[ext_resource path="res://assets/img/players/dtorturer1.png" type="Texture" id=276]
+[ext_resource path="res://assets/img/players/dtorturer1an.png" type="Texture" id=277]
+[ext_resource path="res://assets/img/players/dtorturer1b.png" type="Texture" id=278]
+[ext_resource path="res://assets/img/players/dtorturer1ban.png" type="Texture" id=279]
+[ext_resource path="res://assets/img/players/dwarfref1.png" type="Texture" id=280]
+[ext_resource path="res://assets/img/players/dwarfref1an.png" type="Texture" id=281]
+[ext_resource path="res://assets/img/players/epblitzer1.png" type="Texture" id=282]
+[ext_resource path="res://assets/img/players/epblitzer1an.png" type="Texture" id=283]
+[ext_resource path="res://assets/img/players/epblitzer1b.png" type="Texture" id=284]
+[ext_resource path="res://assets/img/players/epblitzer1ban.png" type="Texture" id=285]
+[ext_resource path="res://assets/img/players/epcatcher1.png" type="Texture" id=286]
+[ext_resource path="res://assets/img/players/epcatcher1an.png" type="Texture" id=287]
+[ext_resource path="res://assets/img/players/epcatcher1b.png" type="Texture" id=288]
+[ext_resource path="res://assets/img/players/epcatcher1ban.png" type="Texture" id=289]
+[ext_resource path="res://assets/img/players/eplineman1.png" type="Texture" id=290]
+[ext_resource path="res://assets/img/players/eplineman1an.png" type="Texture" id=291]
+[ext_resource path="res://assets/img/players/eplineman1b.png" type="Texture" id=292]
+[ext_resource path="res://assets/img/players/eplineman1ban.png" type="Texture" id=293]
+[ext_resource path="res://assets/img/players/epthrower1.png" type="Texture" id=294]
+[ext_resource path="res://assets/img/players/epthrower1an.png" type="Texture" id=295]
+[ext_resource path="res://assets/img/players/epthrower1b.png" type="Texture" id=296]
+[ext_resource path="res://assets/img/players/epthrower1ban.png" type="Texture" id=297]
+[ext_resource path="res://assets/img/players/GOBALL1.png" type="Texture" id=298]
+[ext_resource path="res://assets/img/players/goball1an.png" type="Texture" id=299]
+[ext_resource path="res://assets/img/players/GOBALL1B.png" type="Texture" id=300]
+[ext_resource path="res://assets/img/players/goball1ban.png" type="Texture" id=301]
+[ext_resource path="res://assets/img/players/GOBLIN1.png" type="Texture" id=302]
+[ext_resource path="res://assets/img/players/goblin1an.png" type="Texture" id=303]
+[ext_resource path="res://assets/img/players/GOBLIN1B.png" type="Texture" id=304]
+[ext_resource path="res://assets/img/players/goblin1ban.png" type="Texture" id=305]
+[ext_resource path="res://assets/img/players/GOBLIN2.png" type="Texture" id=306]
+[ext_resource path="res://assets/img/players/goblin2an.png" type="Texture" id=307]
+[ext_resource path="res://assets/img/players/GOBLIN2B.png" type="Texture" id=308]
+[ext_resource path="res://assets/img/players/goblin2ban.png" type="Texture" id=309]
+[ext_resource path="res://assets/img/players/GOBLIN3.png" type="Texture" id=310]
+[ext_resource path="res://assets/img/players/goblin3an.png" type="Texture" id=311]
+[ext_resource path="res://assets/img/players/GOBLIN3B.png" type="Texture" id=312]
+[ext_resource path="res://assets/img/players/goblin3ban.png" type="Texture" id=313]
+[ext_resource path="res://assets/img/players/GOBLIN4.png" type="Texture" id=314]
+[ext_resource path="res://assets/img/players/goblin4an.png" type="Texture" id=315]
+[ext_resource path="res://assets/img/players/GOBLIN4B.png" type="Texture" id=316]
+[ext_resource path="res://assets/img/players/goblin4ban.png" type="Texture" id=317]
+[ext_resource path="res://assets/img/players/GOBLIN5.png" type="Texture" id=318]
+[ext_resource path="res://assets/img/players/GOBLIN5B.png" type="Texture" id=319]
+[ext_resource path="res://assets/img/players/goblin5ban.png" type="Texture" id=320]
+[ext_resource path="res://assets/img/players/GOBOMB1.png" type="Texture" id=321]
+[ext_resource path="res://assets/img/players/gobomb1an.png" type="Texture" id=322]
+[ext_resource path="res://assets/img/players/GOBOMB1B.png" type="Texture" id=323]
+[ext_resource path="res://assets/img/players/gobomb1ban.png" type="Texture" id=324]
+[ext_resource path="res://assets/img/players/GOGRE1.png" type="Texture" id=325]
+[ext_resource path="res://assets/img/players/GOGRE1AN.png" type="Texture" id=326]
+[ext_resource path="res://assets/img/players/GOGRE1B.png" type="Texture" id=327]
+[ext_resource path="res://assets/img/players/gogre1ban.png" type="Texture" id=328]
+[ext_resource path="res://assets/img/players/GOGRE2.png" type="Texture" id=329]
+[ext_resource path="res://assets/img/players/GOGRE2AN.png" type="Texture" id=330]
+[ext_resource path="res://assets/img/players/GOGRE2B.png" type="Texture" id=331]
+[ext_resource path="res://assets/img/players/gogre2ban.png" type="Texture" id=332]
+[ext_resource path="res://assets/img/players/grailknight1.png" type="Texture" id=333]
+[ext_resource path="res://assets/img/players/grailknight1an.png" type="Texture" id=334]
+[ext_resource path="res://assets/img/players/grailknight1b.png" type="Texture" id=335]
+[ext_resource path="res://assets/img/players/grailknight1ban.png" type="Texture" id=336]
+[ext_resource path="res://assets/img/players/grailknight2.png" type="Texture" id=337]
+[ext_resource path="res://assets/img/players/grailknight2an.png" type="Texture" id=338]
+[ext_resource path="res://assets/img/players/grailknight2b.png" type="Texture" id=339]
+[ext_resource path="res://assets/img/players/grailknight2ban.png" type="Texture" id=340]
+[ext_resource path="res://assets/img/players/GTIGER.png" type="Texture" id=341]
+[ext_resource path="res://assets/img/players/GTIGERAN.png" type="Texture" id=342]
+[ext_resource path="res://assets/img/players/GTIGERB.png" type="Texture" id=343]
+[ext_resource path="res://assets/img/players/gtigerban.png" type="Texture" id=344]
+[ext_resource path="res://assets/img/players/halfling1.png" type="Texture" id=345]
+[ext_resource path="res://assets/img/players/halfling1an.png" type="Texture" id=346]
+[ext_resource path="res://assets/img/players/halfling1b.png" type="Texture" id=347]
+[ext_resource path="res://assets/img/players/halfling1ban.png" type="Texture" id=348]
+[ext_resource path="res://assets/img/players/halfling2.png" type="Texture" id=349]
+[ext_resource path="res://assets/img/players/halfling2an.png" type="Texture" id=350]
+[ext_resource path="res://assets/img/players/halfling2b.png" type="Texture" id=351]
+[ext_resource path="res://assets/img/players/halfling2ban.png" type="Texture" id=352]
+[ext_resource path="res://assets/img/players/halfling3.png" type="Texture" id=353]
+[ext_resource path="res://assets/img/players/halfling3an.png" type="Texture" id=354]
+[ext_resource path="res://assets/img/players/halfling3b.png" type="Texture" id=355]
+[ext_resource path="res://assets/img/players/halfling3ban.png" type="Texture" id=356]
+[ext_resource path="res://assets/img/players/halfling4.png" type="Texture" id=357]
+[ext_resource path="res://assets/img/players/halfling4an.png" type="Texture" id=358]
+[ext_resource path="res://assets/img/players/halfling4b.png" type="Texture" id=359]
+[ext_resource path="res://assets/img/players/halfling4ban.png" type="Texture" id=360]
+[ext_resource path="res://assets/img/players/halfling5.png" type="Texture" id=361]
+[ext_resource path="res://assets/img/players/halfling5an.png" type="Texture" id=362]
+[ext_resource path="res://assets/img/players/halfling5b.png" type="Texture" id=363]
+[ext_resource path="res://assets/img/players/halfling5ban.png" type="Texture" id=364]
+[ext_resource path="res://assets/img/players/hblitzer1.png" type="Texture" id=365]
+[ext_resource path="res://assets/img/players/hblitzer1an.png" type="Texture" id=366]
+[ext_resource path="res://assets/img/players/hblitzer1b.png" type="Texture" id=367]
+[ext_resource path="res://assets/img/players/hblitzer1ban.png" type="Texture" id=368]
+[ext_resource path="res://assets/img/players/hblitzer2.png" type="Texture" id=369]
+[ext_resource path="res://assets/img/players/hblitzer2an.png" type="Texture" id=370]
+[ext_resource path="res://assets/img/players/hblitzer2b.png" type="Texture" id=371]
+[ext_resource path="res://assets/img/players/hblitzer2ban.png" type="Texture" id=372]
+[ext_resource path="res://assets/img/players/hblitzer3.png" type="Texture" id=373]
+[ext_resource path="res://assets/img/players/hblitzer3an.png" type="Texture" id=374]
+[ext_resource path="res://assets/img/players/hblitzer3b.png" type="Texture" id=375]
+[ext_resource path="res://assets/img/players/hblitzer3ban.png" type="Texture" id=376]
+[ext_resource path="res://assets/img/players/hcatcher1.png" type="Texture" id=377]
+[ext_resource path="res://assets/img/players/hcatcher1an.png" type="Texture" id=378]
+[ext_resource path="res://assets/img/players/hcatcher1b.png" type="Texture" id=379]
+[ext_resource path="res://assets/img/players/hcatcher1ban.png" type="Texture" id=380]
+[ext_resource path="res://assets/img/players/hcatcher2.png" type="Texture" id=381]
+[ext_resource path="res://assets/img/players/hcatcher2an.png" type="Texture" id=382]
+[ext_resource path="res://assets/img/players/hcatcher2b.png" type="Texture" id=383]
+[ext_resource path="res://assets/img/players/hcatcher2ban.png" type="Texture" id=384]
+[ext_resource path="res://assets/img/players/heblitzer1.png" type="Texture" id=385]
+[ext_resource path="res://assets/img/players/heblitzer1an.png" type="Texture" id=386]
+[ext_resource path="res://assets/img/players/heblitzer1b.png" type="Texture" id=387]
+[ext_resource path="res://assets/img/players/heblitzer1ban.png" type="Texture" id=388]
+[ext_resource path="res://assets/img/players/hecatcher1.png" type="Texture" id=389]
+[ext_resource path="res://assets/img/players/hecatcher1an.png" type="Texture" id=390]
+[ext_resource path="res://assets/img/players/hecatcher1b.png" type="Texture" id=391]
+[ext_resource path="res://assets/img/players/hecatcher1ban.png" type="Texture" id=392]
+[ext_resource path="res://assets/img/players/helineman1.png" type="Texture" id=393]
+[ext_resource path="res://assets/img/players/helineman1an.png" type="Texture" id=394]
+[ext_resource path="res://assets/img/players/helineman1b.png" type="Texture" id=395]
+[ext_resource path="res://assets/img/players/helineman1ban.png" type="Texture" id=396]
+[ext_resource path="res://assets/img/players/hethrower1.png" type="Texture" id=397]
+[ext_resource path="res://assets/img/players/hethrower1an.png" type="Texture" id=398]
+[ext_resource path="res://assets/img/players/hethrower1b.png" type="Texture" id=399]
+[ext_resource path="res://assets/img/players/hethrower1ban.png" type="Texture" id=400]
+[ext_resource path="res://assets/img/players/hlineman1.png" type="Texture" id=401]
+[ext_resource path="res://assets/img/players/hlineman1an.png" type="Texture" id=402]
+[ext_resource path="res://assets/img/players/hlineman1b.png" type="Texture" id=403]
+[ext_resource path="res://assets/img/players/hlineman3ban.png" type="Texture" id=404]
+[ext_resource path="res://assets/img/players/HOGRE1.png" type="Texture" id=405]
+[ext_resource path="res://assets/img/players/HOGRE1AN.png" type="Texture" id=406]
+[ext_resource path="res://assets/img/players/HOGRE1B.png" type="Texture" id=407]
+[ext_resource path="res://assets/img/players/hogre1ban.png" type="Texture" id=408]
+[ext_resource path="res://assets/img/players/hthrower1.png" type="Texture" id=409]
+[ext_resource path="res://assets/img/players/hthrower1an.png" type="Texture" id=410]
+[ext_resource path="res://assets/img/players/hthrower1b.png" type="Texture" id=411]
+[ext_resource path="res://assets/img/players/hthrower1ban.png" type="Texture" id=412]
+[ext_resource path="res://assets/img/players/humanref1an.png" type="Texture" id=413]
+[ext_resource path="res://assets/img/players/kmblitzer1.png" type="Texture" id=414]
+[ext_resource path="res://assets/img/players/kmblitzer1an.png" type="Texture" id=415]
+[ext_resource path="res://assets/img/players/kmblitzer1b.png" type="Texture" id=416]
+[ext_resource path="res://assets/img/players/kmblitzer1ban.png" type="Texture" id=417]
+[ext_resource path="res://assets/img/players/KMMUMMY1.png" type="Texture" id=418]
+[ext_resource path="res://assets/img/players/kmmummy1an.png" type="Texture" id=419]
+[ext_resource path="res://assets/img/players/kmmummy1b.png" type="Texture" id=420]
+[ext_resource path="res://assets/img/players/kmmummy1ban.png" type="Texture" id=421]
+[ext_resource path="res://assets/img/players/KMMUMMY2.png" type="Texture" id=422]
+[ext_resource path="res://assets/img/players/kmmummy2an.png" type="Texture" id=423]
+[ext_resource path="res://assets/img/players/kmmummy2b.png" type="Texture" id=424]
+[ext_resource path="res://assets/img/players/kmmummy2ban.png" type="Texture" id=425]
+[ext_resource path="res://assets/img/players/kmskeleton1.png" type="Texture" id=426]
+[ext_resource path="res://assets/img/players/kmskeleton1an.png" type="Texture" id=427]
+[ext_resource path="res://assets/img/players/kmskeleton1b.png" type="Texture" id=428]
+[ext_resource path="res://assets/img/players/kmskeleton1ban.png" type="Texture" id=429]
+[ext_resource path="res://assets/img/players/kmthrower1.png" type="Texture" id=430]
+[ext_resource path="res://assets/img/players/kmthrower1an.png" type="Texture" id=431]
+[ext_resource path="res://assets/img/players/kmthrower1b.png" type="Texture" id=432]
+[ext_resource path="res://assets/img/players/kmthrower1ban.png" type="Texture" id=433]
+[ext_resource path="res://assets/img/players/KNIGHT1.png" type="Texture" id=434]
+[ext_resource path="res://assets/img/players/knight1an.png" type="Texture" id=435]
+[ext_resource path="res://assets/img/players/KNIGHT1B.png" type="Texture" id=436]
+[ext_resource path="res://assets/img/players/knight1ban.png" type="Texture" id=437]
+[ext_resource path="res://assets/img/players/KNIGHT2.png" type="Texture" id=438]
+[ext_resource path="res://assets/img/players/knight2an.png" type="Texture" id=439]
+[ext_resource path="res://assets/img/players/KNIGHT2B.png" type="Texture" id=440]
+[ext_resource path="res://assets/img/players/knight2ban.png" type="Texture" id=441]
+[ext_resource path="res://assets/img/players/KNIGHT3.png" type="Texture" id=442]
+[ext_resource path="res://assets/img/players/knight3an.png" type="Texture" id=443]
+[ext_resource path="res://assets/img/players/KNIGHT3B.png" type="Texture" id=444]
+[ext_resource path="res://assets/img/players/knight3ban.png" type="Texture" id=445]
+[ext_resource path="res://assets/img/players/KNIGHT4.png" type="Texture" id=446]
+[ext_resource path="res://assets/img/players/knight4an.png" type="Texture" id=447]
+[ext_resource path="res://assets/img/players/KNIGHT4B.png" type="Texture" id=448]
+[ext_resource path="res://assets/img/players/knight4ban.png" type="Texture" id=449]
+[ext_resource path="res://assets/img/players/knighterrant1.png" type="Texture" id=450]
+[ext_resource path="res://assets/img/players/knighterrant1an.png" type="Texture" id=451]
+[ext_resource path="res://assets/img/players/knighterrant1b.png" type="Texture" id=452]
+[ext_resource path="res://assets/img/players/knighterrant1ban.png" type="Texture" id=453]
+[ext_resource path="res://assets/img/players/knighterrant2.png" type="Texture" id=454]
+[ext_resource path="res://assets/img/players/knighterrant2an.png" type="Texture" id=455]
+[ext_resource path="res://assets/img/players/knighterrant2b.png" type="Texture" id=456]
+[ext_resource path="res://assets/img/players/knighterrant2ban.png" type="Texture" id=457]
+[ext_resource path="res://assets/img/players/kroxigor1.png" type="Texture" id=458]
+[ext_resource path="res://assets/img/players/kroxigor1an.png" type="Texture" id=459]
+[ext_resource path="res://assets/img/players/kroxigor1b.png" type="Texture" id=460]
+[ext_resource path="res://assets/img/players/kroxigor1ban.png" type="Texture" id=461]
+[ext_resource path="res://assets/img/players/lmsaurus1.png" type="Texture" id=462]
+[ext_resource path="res://assets/img/players/lmsaurus1an.png" type="Texture" id=463]
+[ext_resource path="res://assets/img/players/lmsaurus1b.png" type="Texture" id=464]
+[ext_resource path="res://assets/img/players/lmsaurus1ban.png" type="Texture" id=465]
+[ext_resource path="res://assets/img/players/lmsaurus2.png" type="Texture" id=466]
+[ext_resource path="res://assets/img/players/lmsaurus2an.png" type="Texture" id=467]
+[ext_resource path="res://assets/img/players/lmsaurus2b.png" type="Texture" id=468]
+[ext_resource path="res://assets/img/players/lmsaurus2ban.png" type="Texture" id=469]
+[ext_resource path="res://assets/img/players/lmsaurus3.png" type="Texture" id=470]
+[ext_resource path="res://assets/img/players/lmsaurus3an.png" type="Texture" id=471]
+[ext_resource path="res://assets/img/players/lmsaurus3b.png" type="Texture" id=472]
+[ext_resource path="res://assets/img/players/lmsaurus3ban.png" type="Texture" id=473]
+[ext_resource path="res://assets/img/players/lmsaurus4.png" type="Texture" id=474]
+[ext_resource path="res://assets/img/players/lmsaurus4an.png" type="Texture" id=475]
+[ext_resource path="res://assets/img/players/lmsaurus4b.png" type="Texture" id=476]
+[ext_resource path="res://assets/img/players/lmsaurus4ban.png" type="Texture" id=477]
+[ext_resource path="res://assets/img/players/lmsaurus5.png" type="Texture" id=478]
+[ext_resource path="res://assets/img/players/lmsaurus5an.png" type="Texture" id=479]
+[ext_resource path="res://assets/img/players/lmsaurus6an.png" type="Texture" id=480]
+[ext_resource path="res://assets/img/players/lmsaurus6b.png" type="Texture" id=481]
+[ext_resource path="res://assets/img/players/lmsaurus6ban.png" type="Texture" id=482]
+[ext_resource path="res://assets/img/players/LMSKINK1.png" type="Texture" id=483]
+[ext_resource path="res://assets/img/players/lmskink1an.png" type="Texture" id=484]
+[ext_resource path="res://assets/img/players/lmskink1b.png" type="Texture" id=485]
+[ext_resource path="res://assets/img/players/lmskink1ban.png" type="Texture" id=486]
+[ext_resource path="res://assets/img/players/LMSKINK2.png" type="Texture" id=487]
+[ext_resource path="res://assets/img/players/lmskink2an.png" type="Texture" id=488]
+[ext_resource path="res://assets/img/players/lmskink2b.png" type="Texture" id=489]
+[ext_resource path="res://assets/img/players/lmskink2ban.png" type="Texture" id=490]
+[ext_resource path="res://assets/img/players/LMSKINK3.png" type="Texture" id=491]
+[ext_resource path="res://assets/img/players/lmskink3an.png" type="Texture" id=492]
+[ext_resource path="res://assets/img/players/lmskink3b.png" type="Texture" id=493]
+[ext_resource path="res://assets/img/players/lmskink3ban.png" type="Texture" id=494]
+[ext_resource path="res://assets/img/players/LMSKINK4.png" type="Texture" id=495]
+[ext_resource path="res://assets/img/players/lmskink4an.png" type="Texture" id=496]
+[ext_resource path="res://assets/img/players/lmskink4b.png" type="Texture" id=497]
+[ext_resource path="res://assets/img/players/lmskink4ban.png" type="Texture" id=498]
+[ext_resource path="res://assets/img/players/LMSKINK5.png" type="Texture" id=499]
+[ext_resource path="res://assets/img/players/lmskink5an.png" type="Texture" id=500]
+[ext_resource path="res://assets/img/players/lmskink5b.png" type="Texture" id=501]
+[ext_resource path="res://assets/img/players/lmskink5ban.png" type="Texture" id=502]
+[ext_resource path="res://assets/img/players/lmskink6an.png" type="Texture" id=503]
+[ext_resource path="res://assets/img/players/lmskink6b.png" type="Texture" id=504]
+[ext_resource path="res://assets/img/players/lmskink6ban.png" type="Texture" id=505]
+[ext_resource path="res://assets/img/players/minotaur1.png" type="Texture" id=506]
+[ext_resource path="res://assets/img/players/minotaur1an.png" type="Texture" id=507]
+[ext_resource path="res://assets/img/players/minotaur1b.png" type="Texture" id=508]
+[ext_resource path="res://assets/img/players/minotaur1ban.png" type="Texture" id=509]
+[ext_resource path="res://assets/img/players/minotaur2.png" type="Texture" id=510]
+[ext_resource path="res://assets/img/players/minotaur2an.png" type="Texture" id=511]
+[ext_resource path="res://assets/img/players/minotaur2b.png" type="Texture" id=512]
+[ext_resource path="res://assets/img/players/minotaurndc1.png" type="Texture" id=513]
+[ext_resource path="res://assets/img/players/minotaurndc1an.png" type="Texture" id=514]
+[ext_resource path="res://assets/img/players/minotaurndc1b.png" type="Texture" id=515]
+[ext_resource path="res://assets/img/players/minotaurndc1ban.png" type="Texture" id=516]
+[ext_resource path="res://assets/img/players/NBEAST1.png" type="Texture" id=517]
+[ext_resource path="res://assets/img/players/nbeast1an.png" type="Texture" id=518]
+[ext_resource path="res://assets/img/players/NBEAST1B.png" type="Texture" id=519]
+[ext_resource path="res://assets/img/players/nbeast1ban.png" type="Texture" id=520]
+[ext_resource path="res://assets/img/players/nbeastman1.png" type="Texture" id=521]
+[ext_resource path="res://assets/img/players/nbeastman1an.png" type="Texture" id=522]
+[ext_resource path="res://assets/img/players/nbeastman1b.png" type="Texture" id=523]
+[ext_resource path="res://assets/img/players/nbeastman1ban.png" type="Texture" id=524]
+[ext_resource path="res://assets/img/players/nbeastman2.png" type="Texture" id=525]
+[ext_resource path="res://assets/img/players/nbeastman2an.png" type="Texture" id=526]
+[ext_resource path="res://assets/img/players/nbeastman2b.png" type="Texture" id=527]
+[ext_resource path="res://assets/img/players/nbeastman2ban.png" type="Texture" id=528]
+[ext_resource path="res://assets/img/players/nbeastman3.png" type="Texture" id=529]
+[ext_resource path="res://assets/img/players/nbeastman3an.png" type="Texture" id=530]
+[ext_resource path="res://assets/img/players/nbeastman3b.png" type="Texture" id=531]
+[ext_resource path="res://assets/img/players/nbeastman3ban.png" type="Texture" id=532]
+[ext_resource path="res://assets/img/players/nbeastman4.png" type="Texture" id=533]
+[ext_resource path="res://assets/img/players/nbeastman4an.png" type="Texture" id=534]
+[ext_resource path="res://assets/img/players/nbeastman4b.png" type="Texture" id=535]
+[ext_resource path="res://assets/img/players/nbeastman4ban.png" type="Texture" id=536]
+[ext_resource path="res://assets/img/players/nblitzer1.png" type="Texture" id=537]
+[ext_resource path="res://assets/img/players/nblitzer1an.png" type="Texture" id=538]
+[ext_resource path="res://assets/img/players/nblitzer1b.png" type="Texture" id=539]
+[ext_resource path="res://assets/img/players/nblitzer1ban.png" type="Texture" id=540]
+[ext_resource path="res://assets/img/players/ncatcher1.png" type="Texture" id=541]
+[ext_resource path="res://assets/img/players/ncatcher1an.png" type="Texture" id=542]
+[ext_resource path="res://assets/img/players/ncatcher1b.png" type="Texture" id=543]
+[ext_resource path="res://assets/img/players/ncatcher1ban.png" type="Texture" id=544]
+[ext_resource path="res://assets/img/players/NGHOUL1.png" type="Texture" id=545]
+[ext_resource path="res://assets/img/players/nghoul1an.png" type="Texture" id=546]
+[ext_resource path="res://assets/img/players/NGHOUL1B.png" type="Texture" id=547]
+[ext_resource path="res://assets/img/players/nghoul1ban.png" type="Texture" id=548]
+[ext_resource path="res://assets/img/players/NGHOUL2.png" type="Texture" id=549]
+[ext_resource path="res://assets/img/players/nghoul2an.png" type="Texture" id=550]
+[ext_resource path="res://assets/img/players/NGHOUL2B.png" type="Texture" id=551]
+[ext_resource path="res://assets/img/players/nghoul2ban.png" type="Texture" id=552]
+[ext_resource path="res://assets/img/players/NGOLEM1.png" type="Texture" id=553]
+[ext_resource path="res://assets/img/players/ngolem1an.png" type="Texture" id=554]
+[ext_resource path="res://assets/img/players/NGOLEM1B.png" type="Texture" id=555]
+[ext_resource path="res://assets/img/players/ngolem1ban.png" type="Texture" id=556]
+[ext_resource path="res://assets/img/players/NGOLEM2.png" type="Texture" id=557]
+[ext_resource path="res://assets/img/players/ngolem2an.png" type="Texture" id=558]
+[ext_resource path="res://assets/img/players/NGOLEM2B.png" type="Texture" id=559]
+[ext_resource path="res://assets/img/players/ngolem2ban.png" type="Texture" id=560]
+[ext_resource path="res://assets/img/players/nlineman1.png" type="Texture" id=561]
+[ext_resource path="res://assets/img/players/nlineman1an.png" type="Texture" id=562]
+[ext_resource path="res://assets/img/players/nlineman1b.png" type="Texture" id=563]
+[ext_resource path="res://assets/img/players/nlineman1ban.png" type="Texture" id=564]
+[ext_resource path="res://assets/img/players/nlineman2.png" type="Texture" id=565]
+[ext_resource path="res://assets/img/players/nlineman2an.png" type="Texture" id=566]
+[ext_resource path="res://assets/img/players/nlineman2b.png" type="Texture" id=567]
+[ext_resource path="res://assets/img/players/nlineman2ban.png" type="Texture" id=568]
+[ext_resource path="res://assets/img/players/NROTTER1.png" type="Texture" id=569]
+[ext_resource path="res://assets/img/players/nrotter1an.png" type="Texture" id=570]
+[ext_resource path="res://assets/img/players/nrotter1b.png" type="Texture" id=571]
+[ext_resource path="res://assets/img/players/nrotter2an.png" type="Texture" id=572]
+[ext_resource path="res://assets/img/players/nrotter2b.png" type="Texture" id=573]
+[ext_resource path="res://assets/img/players/nrotter2ban.png" type="Texture" id=574]
+[ext_resource path="res://assets/img/players/NROTTER3.png" type="Texture" id=575]
+[ext_resource path="res://assets/img/players/nrotter3an.png" type="Texture" id=576]
+[ext_resource path="res://assets/img/players/nrotter3b.png" type="Texture" id=577]
+[ext_resource path="res://assets/img/players/nrotter3ban.png" type="Texture" id=578]
+[ext_resource path="res://assets/img/players/NROTTER4.png" type="Texture" id=579]
+[ext_resource path="res://assets/img/players/nrotter4an.png" type="Texture" id=580]
+[ext_resource path="res://assets/img/players/nrotter4b.png" type="Texture" id=581]
+[ext_resource path="res://assets/img/players/nrotter4ban.png" type="Texture" id=582]
+[ext_resource path="res://assets/img/players/nthrower1.png" type="Texture" id=583]
+[ext_resource path="res://assets/img/players/nthrower1an.png" type="Texture" id=584]
+[ext_resource path="res://assets/img/players/nthrower1b.png" type="Texture" id=585]
+[ext_resource path="res://assets/img/players/nthrower1ban.png" type="Texture" id=586]
+[ext_resource path="res://assets/img/players/nwerewolf1.png" type="Texture" id=587]
+[ext_resource path="res://assets/img/players/nwerewolf1an.png" type="Texture" id=588]
+[ext_resource path="res://assets/img/players/nwerewolf1b.png" type="Texture" id=589]
+[ext_resource path="res://assets/img/players/nwerewolf1ban.png" type="Texture" id=590]
+[ext_resource path="res://assets/img/players/NWIGHT1.png" type="Texture" id=591]
+[ext_resource path="res://assets/img/players/nwight1an.png" type="Texture" id=592]
+[ext_resource path="res://assets/img/players/NWIGHT1B.png" type="Texture" id=593]
+[ext_resource path="res://assets/img/players/nwight1ban.png" type="Texture" id=594]
+[ext_resource path="res://assets/img/players/NWIGHT2.png" type="Texture" id=595]
+[ext_resource path="res://assets/img/players/nwight2an.png" type="Texture" id=596]
+[ext_resource path="res://assets/img/players/NWIGHT2B.png" type="Texture" id=597]
+[ext_resource path="res://assets/img/players/nwight2ban.png" type="Texture" id=598]
+[ext_resource path="res://assets/img/players/oblackorc1.png" type="Texture" id=599]
+[ext_resource path="res://assets/img/players/oblackorc1an.png" type="Texture" id=600]
+[ext_resource path="res://assets/img/players/oblackorc1b.png" type="Texture" id=601]
+[ext_resource path="res://assets/img/players/oblackorc1ban.png" type="Texture" id=602]
+[ext_resource path="res://assets/img/players/oblackorc2.png" type="Texture" id=603]
+[ext_resource path="res://assets/img/players/oblackorc2an.png" type="Texture" id=604]
+[ext_resource path="res://assets/img/players/oblackorc2b.png" type="Texture" id=605]
+[ext_resource path="res://assets/img/players/oblackorc2ban.png" type="Texture" id=606]
+[ext_resource path="res://assets/img/players/oblackorc3.png" type="Texture" id=607]
+[ext_resource path="res://assets/img/players/oblackorc3an.png" type="Texture" id=608]
+[ext_resource path="res://assets/img/players/oblackorc3b.png" type="Texture" id=609]
+[ext_resource path="res://assets/img/players/oblackorc3ban.png" type="Texture" id=610]
+[ext_resource path="res://assets/img/players/oblackorc4.png" type="Texture" id=611]
+[ext_resource path="res://assets/img/players/oblackorc4an.png" type="Texture" id=612]
+[ext_resource path="res://assets/img/players/oblackorc4b.png" type="Texture" id=613]
+[ext_resource path="res://assets/img/players/oblackorc4ban.png" type="Texture" id=614]
+[ext_resource path="res://assets/img/players/oblitzer1.png" type="Texture" id=615]
+[ext_resource path="res://assets/img/players/oblitzer1an.png" type="Texture" id=616]
+[ext_resource path="res://assets/img/players/oblitzer1b.png" type="Texture" id=617]
+[ext_resource path="res://assets/img/players/oblitzer1ban.png" type="Texture" id=618]
+[ext_resource path="res://assets/img/players/OGRE1.png" type="Texture" id=619]
+[ext_resource path="res://assets/img/players/OGRE1AN.png" type="Texture" id=620]
+[ext_resource path="res://assets/img/players/OGRE1B.png" type="Texture" id=621]
+[ext_resource path="res://assets/img/players/OGRE1BAN.png" type="Texture" id=622]
+[ext_resource path="res://assets/img/players/OGRE2AN.png" type="Texture" id=623]
+[ext_resource path="res://assets/img/players/OGRE2B.png" type="Texture" id=624]
+[ext_resource path="res://assets/img/players/OGRE2BAN.png" type="Texture" id=625]
+[ext_resource path="res://assets/img/players/OGRE3.png" type="Texture" id=626]
+[ext_resource path="res://assets/img/players/OGRE3AN.png" type="Texture" id=627]
+[ext_resource path="res://assets/img/players/OGRE3B.png" type="Texture" id=628]
+[ext_resource path="res://assets/img/players/OGRE3BAN.png" type="Texture" id=629]
+[ext_resource path="res://assets/img/players/OGRE4.png" type="Texture" id=630]
+[ext_resource path="res://assets/img/players/OGRE4AN.png" type="Texture" id=631]
+[ext_resource path="res://assets/img/players/OGRE4B.png" type="Texture" id=632]
+[ext_resource path="res://assets/img/players/OGRE4BAN.png" type="Texture" id=633]
+[ext_resource path="res://assets/img/players/OGRE5.png" type="Texture" id=634]
+[ext_resource path="res://assets/img/players/OGRE5B.png" type="Texture" id=635]
+[ext_resource path="res://assets/img/players/OGRE5BAN.png" type="Texture" id=636]
+[ext_resource path="res://assets/img/players/OGRE6.png" type="Texture" id=637]
+[ext_resource path="res://assets/img/players/OGRE6AN.png" type="Texture" id=638]
+[ext_resource path="res://assets/img/players/OGRE6B.png" type="Texture" id=639]
+[ext_resource path="res://assets/img/players/OGRE6BAN.png" type="Texture" id=640]
+[ext_resource path="res://assets/img/players/OGRE7.png" type="Texture" id=641]
+[ext_resource path="res://assets/img/players/OGRE7AN.png" type="Texture" id=642]
+[ext_resource path="res://assets/img/players/OGRE7B.png" type="Texture" id=643]
+[ext_resource path="res://assets/img/players/OGRE7BAN.png" type="Texture" id=644]
+[ext_resource path="res://assets/img/players/OGRE8.png" type="Texture" id=645]
+[ext_resource path="res://assets/img/players/OGRE8AN.png" type="Texture" id=646]
+[ext_resource path="res://assets/img/players/OGRE8B.png" type="Texture" id=647]
+[ext_resource path="res://assets/img/players/OGRE8BAN.png" type="Texture" id=648]
+[ext_resource path="res://assets/img/players/olineman1.png" type="Texture" id=649]
+[ext_resource path="res://assets/img/players/olineman1an.png" type="Texture" id=650]
+[ext_resource path="res://assets/img/players/olineman1ban.png" type="Texture" id=651]
+[ext_resource path="res://assets/img/players/othrower1.png" type="Texture" id=652]
+[ext_resource path="res://assets/img/players/othrower1b.png" type="Texture" id=653]
+[ext_resource path="res://assets/img/players/othrower1ban.png" type="Texture" id=654]
+[ext_resource path="res://assets/img/players/PEASANT1.png" type="Texture" id=655]
+[ext_resource path="res://assets/img/players/peasant1an.png" type="Texture" id=656]
+[ext_resource path="res://assets/img/players/peasant1b.png" type="Texture" id=657]
+[ext_resource path="res://assets/img/players/peasant1ban.png" type="Texture" id=658]
+[ext_resource path="res://assets/img/players/PEASANT2.png" type="Texture" id=659]
+[ext_resource path="res://assets/img/players/peasant2an.png" type="Texture" id=660]
+[ext_resource path="res://assets/img/players/peasant2b.png" type="Texture" id=661]
+[ext_resource path="res://assets/img/players/peasant2ban.png" type="Texture" id=662]
+[ext_resource path="res://assets/img/players/PEASANT3.png" type="Texture" id=663]
+[ext_resource path="res://assets/img/players/peasant3an.png" type="Texture" id=664]
+[ext_resource path="res://assets/img/players/peasant3b.png" type="Texture" id=665]
+[ext_resource path="res://assets/img/players/peasant3ban.png" type="Texture" id=666]
+[ext_resource path="res://assets/img/players/POGO1.png" type="Texture" id=667]
+[ext_resource path="res://assets/img/players/POGO1AN.png" type="Texture" id=668]
+[ext_resource path="res://assets/img/players/POGO1B.png" type="Texture" id=669]
+[ext_resource path="res://assets/img/players/POGO1BAN.png" type="Texture" id=670]
+[ext_resource path="res://assets/img/players/posseded1.png" type="Texture" id=671]
+[ext_resource path="res://assets/img/players/posseded1an.png" type="Texture" id=672]
+[ext_resource path="res://assets/img/players/posseded1b.png" type="Texture" id=673]
+[ext_resource path="res://assets/img/players/posseded1ban.png" type="Texture" id=674]
+[ext_resource path="res://assets/img/players/posseded2.png" type="Texture" id=675]
+[ext_resource path="res://assets/img/players/posseded2an.png" type="Texture" id=676]
+[ext_resource path="res://assets/img/players/posseded2b.png" type="Texture" id=677]
+[ext_resource path="res://assets/img/players/posseded2ban.png" type="Texture" id=678]
+[ext_resource path="res://assets/img/players/PURRER1.png" type="Texture" id=679]
+[ext_resource path="res://assets/img/players/purrer1an.png" type="Texture" id=680]
+[ext_resource path="res://assets/img/players/PURRER1B.png" type="Texture" id=681]
+[ext_resource path="res://assets/img/players/purrer1ban.png" type="Texture" id=682]
+[ext_resource path="res://assets/img/players/PURRER2.png" type="Texture" id=683]
+[ext_resource path="res://assets/img/players/purrer2an.png" type="Texture" id=684]
+[ext_resource path="res://assets/img/players/PURRER2B.png" type="Texture" id=685]
+[ext_resource path="res://assets/img/players/purrer2ban.png" type="Texture" id=686]
+[ext_resource path="res://assets/img/players/PURRER3.png" type="Texture" id=687]
+[ext_resource path="res://assets/img/players/purrer3an.png" type="Texture" id=688]
+[ext_resource path="res://assets/img/players/PURRER3B.png" type="Texture" id=689]
+[ext_resource path="res://assets/img/players/purrer3ban.png" type="Texture" id=690]
+[ext_resource path="res://assets/img/players/RATOGRE1.png" type="Texture" id=691]
+[ext_resource path="res://assets/img/players/ratogre1an.png" type="Texture" id=692]
+[ext_resource path="res://assets/img/players/ratogre1b.png" type="Texture" id=693]
+[ext_resource path="res://assets/img/players/ratogre1ban.png" type="Texture" id=694]
+[ext_resource path="res://assets/img/players/scurrier1.png" type="Texture" id=695]
+[ext_resource path="res://assets/img/players/scurrier1an.png" type="Texture" id=696]
+[ext_resource path="res://assets/img/players/scurrier1b.png" type="Texture" id=697]
+[ext_resource path="res://assets/img/players/scurrier1ban.png" type="Texture" id=698]
+[ext_resource path="res://assets/img/players/scurrier2.png" type="Texture" id=699]
+[ext_resource path="res://assets/img/players/scurrier2an.png" type="Texture" id=700]
+[ext_resource path="res://assets/img/players/scurrier2b.png" type="Texture" id=701]
+[ext_resource path="res://assets/img/players/sklineman1.png" type="Texture" id=702]
+[ext_resource path="res://assets/img/players/sklineman1an.png" type="Texture" id=703]
+[ext_resource path="res://assets/img/players/sklineman1b.png" type="Texture" id=704]
+[ext_resource path="res://assets/img/players/sklineman1ban.png" type="Texture" id=705]
+[ext_resource path="res://assets/img/players/skrunner1.png" type="Texture" id=706]
+[ext_resource path="res://assets/img/players/skrunner1an.png" type="Texture" id=707]
+[ext_resource path="res://assets/img/players/skrunner1b.png" type="Texture" id=708]
+[ext_resource path="res://assets/img/players/skrunner1ban.png" type="Texture" id=709]
+[ext_resource path="res://assets/img/players/SKSTORM1.png" type="Texture" id=710]
+[ext_resource path="res://assets/img/players/skstorm1an.png" type="Texture" id=711]
+[ext_resource path="res://assets/img/players/skstorm1b.png" type="Texture" id=712]
+[ext_resource path="res://assets/img/players/skstorm1ban.png" type="Texture" id=713]
+[ext_resource path="res://assets/img/players/skthrower1.png" type="Texture" id=714]
+[ext_resource path="res://assets/img/players/skthrower1an.png" type="Texture" id=715]
+[ext_resource path="res://assets/img/players/skthrower1b.png" type="Texture" id=716]
+[ext_resource path="res://assets/img/players/skthrower1ban.png" type="Texture" id=717]
+[ext_resource path="res://assets/img/players/SLASHER1.png" type="Texture" id=718]
+[ext_resource path="res://assets/img/players/slasher1an.png" type="Texture" id=719]
+[ext_resource path="res://assets/img/players/slasher1b.png" type="Texture" id=720]
+[ext_resource path="res://assets/img/players/slasher1ban.png" type="Texture" id=721]
+[ext_resource path="res://assets/img/players/SLASHER2.png" type="Texture" id=722]
+[ext_resource path="res://assets/img/players/slasher2an.png" type="Texture" id=723]
+[ext_resource path="res://assets/img/players/slasher2b.png" type="Texture" id=724]
+[ext_resource path="res://assets/img/players/slasher2ban.png" type="Texture" id=725]
+[ext_resource path="res://assets/img/players/SLASHER3.png" type="Texture" id=726]
+[ext_resource path="res://assets/img/players/slasher3an.png" type="Texture" id=727]
+[ext_resource path="res://assets/img/players/slasher3b.png" type="Texture" id=728]
+[ext_resource path="res://assets/img/players/slasher3ban.png" type="Texture" id=729]
+[ext_resource path="res://assets/img/players/squig1.png" type="Texture" id=730]
+[ext_resource path="res://assets/img/players/squig1an.png" type="Texture" id=731]
+[ext_resource path="res://assets/img/players/squig1b.png" type="Texture" id=732]
+[ext_resource path="res://assets/img/players/squig1ban.png" type="Texture" id=733]
+[ext_resource path="res://assets/img/players/tbedouin1.png" type="Texture" id=734]
+[ext_resource path="res://assets/img/players/tbedouin1an.png" type="Texture" id=735]
+[ext_resource path="res://assets/img/players/tbedouin1b.png" type="Texture" id=736]
+[ext_resource path="res://assets/img/players/tbedouin1ban.png" type="Texture" id=737]
+[ext_resource path="res://assets/img/players/tbedouin2.png" type="Texture" id=738]
+[ext_resource path="res://assets/img/players/tbedouin2an.png" type="Texture" id=739]
+[ext_resource path="res://assets/img/players/tbedouin2b.png" type="Texture" id=740]
+[ext_resource path="res://assets/img/players/tbedouin2ban.png" type="Texture" id=741]
+[ext_resource path="res://assets/img/players/tbedouin3.png" type="Texture" id=742]
+[ext_resource path="res://assets/img/players/tbedouin3an.png" type="Texture" id=743]
+[ext_resource path="res://assets/img/players/tbedouin3b.png" type="Texture" id=744]
+[ext_resource path="res://assets/img/players/tbedouin3ban.png" type="Texture" id=745]
+[ext_resource path="res://assets/img/players/tbedouin4.png" type="Texture" id=746]
+[ext_resource path="res://assets/img/players/tbedouin4an.png" type="Texture" id=747]
+[ext_resource path="res://assets/img/players/tbedouin4b.png" type="Texture" id=748]
+[ext_resource path="res://assets/img/players/tbedouin4ban.png" type="Texture" id=749]
+[ext_resource path="res://assets/img/players/TCHEIKH1.png" type="Texture" id=750]
+[ext_resource path="res://assets/img/players/tcheikh1an.png" type="Texture" id=751]
+[ext_resource path="res://assets/img/players/tcheikh1b.png" type="Texture" id=752]
+[ext_resource path="res://assets/img/players/tcheikh1ban.png" type="Texture" id=753]
+[ext_resource path="res://assets/img/players/tderviche1.png" type="Texture" id=754]
+[ext_resource path="res://assets/img/players/tderviche1an.png" type="Texture" id=755]
+[ext_resource path="res://assets/img/players/tderviche1b.png" type="Texture" id=756]
+[ext_resource path="res://assets/img/players/tderviche1ban.png" type="Texture" id=757]
+[ext_resource path="res://assets/img/players/tderviche2.png" type="Texture" id=758]
+[ext_resource path="res://assets/img/players/tderviche2an.png" type="Texture" id=759]
+[ext_resource path="res://assets/img/players/tderviche2b.png" type="Texture" id=760]
+[ext_resource path="res://assets/img/players/tderviche2ban.png" type="Texture" id=761]
+[ext_resource path="res://assets/img/players/TEUNUK1.png" type="Texture" id=762]
+[ext_resource path="res://assets/img/players/teunuk1an.png" type="Texture" id=763]
+[ext_resource path="res://assets/img/players/TEUNUK1B.png" type="Texture" id=764]
+[ext_resource path="res://assets/img/players/teunuk1ban.png" type="Texture" id=765]
+[ext_resource path="res://assets/img/players/TEUNUK2.png" type="Texture" id=766]
+[ext_resource path="res://assets/img/players/teunuk2an.png" type="Texture" id=767]
+[ext_resource path="res://assets/img/players/TEUNUK2B.png" type="Texture" id=768]
+[ext_resource path="res://assets/img/players/teunuk2ban.png" type="Texture" id=769]
+[ext_resource path="res://assets/img/players/tlanceur1.png" type="Texture" id=770]
+[ext_resource path="res://assets/img/players/tlanceur1an.png" type="Texture" id=771]
+[ext_resource path="res://assets/img/players/tlanceur1b.png" type="Texture" id=772]
+[ext_resource path="res://assets/img/players/tlanceur1ban.png" type="Texture" id=773]
+[ext_resource path="res://assets/img/players/TREEMAN1.png" type="Texture" id=774]
+[ext_resource path="res://assets/img/players/treeman1an.png" type="Texture" id=775]
+[ext_resource path="res://assets/img/players/treeman1b.png" type="Texture" id=776]
+[ext_resource path="res://assets/img/players/treeman1ban.png" type="Texture" id=777]
+[ext_resource path="res://assets/img/players/TREEMAN2.png" type="Texture" id=778]
+[ext_resource path="res://assets/img/players/treeman2an.png" type="Texture" id=779]
+[ext_resource path="res://assets/img/players/treeman2b.png" type="Texture" id=780]
+[ext_resource path="res://assets/img/players/treeman2ban.png" type="Texture" id=781]
+[ext_resource path="res://assets/img/players/TROLL1.png" type="Texture" id=782]
+[ext_resource path="res://assets/img/players/TROLL1AN.png" type="Texture" id=783]
+[ext_resource path="res://assets/img/players/TROLL1B.png" type="Texture" id=784]
+[ext_resource path="res://assets/img/players/troll1ban.png" type="Texture" id=785]
+[ext_resource path="res://assets/img/players/TROLL2.png" type="Texture" id=786]
+[ext_resource path="res://assets/img/players/TROLL2AN.png" type="Texture" id=787]
+[ext_resource path="res://assets/img/players/TROLL2B.png" type="Texture" id=788]
+[ext_resource path="res://assets/img/players/troll2ban.png" type="Texture" id=789]
+[ext_resource path="res://assets/img/players/trollchaos1.png" type="Texture" id=790]
+[ext_resource path="res://assets/img/players/trollchaos1an.png" type="Texture" id=791]
+[ext_resource path="res://assets/img/players/trollchaos1b.png" type="Texture" id=792]
+[ext_resource path="res://assets/img/players/trollchaos1ban.png" type="Texture" id=793]
+[ext_resource path="res://assets/img/players/trolljungle1.png" type="Texture" id=794]
+[ext_resource path="res://assets/img/players/trolljungle1an.png" type="Texture" id=795]
+[ext_resource path="res://assets/img/players/trolljungle1b.png" type="Texture" id=796]
+[ext_resource path="res://assets/img/players/trolljungle1ban.png" type="Texture" id=797]
+[ext_resource path="res://assets/img/players/trollndc1.png" type="Texture" id=798]
+[ext_resource path="res://assets/img/players/trollndc1an.png" type="Texture" id=799]
+[ext_resource path="res://assets/img/players/trollndc1b.png" type="Texture" id=800]
+[ext_resource path="res://assets/img/players/trollndc1ban.png" type="Texture" id=801]
+[ext_resource path="res://assets/img/players/trollorc1.png" type="Texture" id=802]
+[ext_resource path="res://assets/img/players/trollorc1an.png" type="Texture" id=803]
+[ext_resource path="res://assets/img/players/trollorc1b.png" type="Texture" id=804]
+[ext_resource path="res://assets/img/players/trollorc1ban.png" type="Texture" id=805]
+[ext_resource path="res://assets/img/players/trollsnow1.png" type="Texture" id=806]
+[ext_resource path="res://assets/img/players/trollsnow1an.png" type="Texture" id=807]
+[ext_resource path="res://assets/img/players/trollsnow1b.png" type="Texture" id=808]
+[ext_resource path="res://assets/img/players/trollsnow1ban.png" type="Texture" id=809]
+[ext_resource path="res://assets/img/players/UGHOUL1.png" type="Texture" id=810]
+[ext_resource path="res://assets/img/players/ughoul1an.png" type="Texture" id=811]
+[ext_resource path="res://assets/img/players/UGHOUL1B.png" type="Texture" id=812]
+[ext_resource path="res://assets/img/players/ughoul1ban.png" type="Texture" id=813]
+[ext_resource path="res://assets/img/players/UGHOUL2.png" type="Texture" id=814]
+[ext_resource path="res://assets/img/players/ughoul2an.png" type="Texture" id=815]
+[ext_resource path="res://assets/img/players/UGHOUL2B.png" type="Texture" id=816]
+[ext_resource path="res://assets/img/players/ughoul2ban.png" type="Texture" id=817]
+[ext_resource path="res://assets/img/players/UGHOUL3.png" type="Texture" id=818]
+[ext_resource path="res://assets/img/players/ughoul3an.png" type="Texture" id=819]
+[ext_resource path="res://assets/img/players/UGHOUL3B.png" type="Texture" id=820]
+[ext_resource path="res://assets/img/players/ughoul3ban.png" type="Texture" id=821]
+[ext_resource path="res://assets/img/players/UGHOUL4.png" type="Texture" id=822]
+[ext_resource path="res://assets/img/players/ughoul4an.png" type="Texture" id=823]
+[ext_resource path="res://assets/img/players/UGHOUL4B.png" type="Texture" id=824]
+[ext_resource path="res://assets/img/players/ughoul4ban.png" type="Texture" id=825]
+[ext_resource path="res://assets/img/players/UMUMMY1.png" type="Texture" id=826]
+[ext_resource path="res://assets/img/players/umummy1an.png" type="Texture" id=827]
+[ext_resource path="res://assets/img/players/UMUMMY1B.png" type="Texture" id=828]
+[ext_resource path="res://assets/img/players/umummy1ban.png" type="Texture" id=829]
+[ext_resource path="res://assets/img/players/UWIGHT1.png" type="Texture" id=830]
+[ext_resource path="res://assets/img/players/uwight1an.png" type="Texture" id=831]
+[ext_resource path="res://assets/img/players/UWIGHT1B.png" type="Texture" id=832]
+[ext_resource path="res://assets/img/players/uwight1ban.png" type="Texture" id=833]
+[ext_resource path="res://assets/img/players/UWIGHT2.png" type="Texture" id=834]
+[ext_resource path="res://assets/img/players/uwight2an.png" type="Texture" id=835]
+[ext_resource path="res://assets/img/players/UWIGHT2B.png" type="Texture" id=836]
+[ext_resource path="res://assets/img/players/uwight2ban.png" type="Texture" id=837]
+[ext_resource path="res://assets/img/players/UZOMBIE1.png" type="Texture" id=838]
+[ext_resource path="res://assets/img/players/uzombie1an.png" type="Texture" id=839]
+[ext_resource path="res://assets/img/players/uzombie1b.png" type="Texture" id=840]
+[ext_resource path="res://assets/img/players/uzombie1ban.png" type="Texture" id=841]
+[ext_resource path="res://assets/img/players/UZOMBIE2.png" type="Texture" id=842]
+[ext_resource path="res://assets/img/players/uzombie2an.png" type="Texture" id=843]
+[ext_resource path="res://assets/img/players/uzombie2b.png" type="Texture" id=844]
+[ext_resource path="res://assets/img/players/uzombie2ban.png" type="Texture" id=845]
+[ext_resource path="res://assets/img/players/VAMPIRE1.png" type="Texture" id=846]
+[ext_resource path="res://assets/img/players/vampire1an.png" type="Texture" id=847]
+[ext_resource path="res://assets/img/players/vampire1b.png" type="Texture" id=848]
+[ext_resource path="res://assets/img/players/vampire1ban.png" type="Texture" id=849]
+[ext_resource path="res://assets/img/players/VAMPIRE2.png" type="Texture" id=850]
+[ext_resource path="res://assets/img/players/vampire2an.png" type="Texture" id=851]
+[ext_resource path="res://assets/img/players/vampire2b.png" type="Texture" id=852]
+[ext_resource path="res://assets/img/players/vampire2ban.png" type="Texture" id=853]
+[ext_resource path="res://assets/img/players/VAMPIRE3.png" type="Texture" id=854]
+[ext_resource path="res://assets/img/players/vampire3an.png" type="Texture" id=855]
+[ext_resource path="res://assets/img/players/vampire3b.png" type="Texture" id=856]
+[ext_resource path="res://assets/img/players/vampire3ban.png" type="Texture" id=857]
+[ext_resource path="res://assets/img/players/VAMPIRE4.png" type="Texture" id=858]
+[ext_resource path="res://assets/img/players/vampire4an.png" type="Texture" id=859]
+[ext_resource path="res://assets/img/players/vampire4b.png" type="Texture" id=860]
+[ext_resource path="res://assets/img/players/vampire4ban.png" type="Texture" id=861]
+[ext_resource path="res://assets/img/players/vampirelord1.png" type="Texture" id=862]
+[ext_resource path="res://assets/img/players/vampirelord1an.png" type="Texture" id=863]
+[ext_resource path="res://assets/img/players/vampirelord1b.png" type="Texture" id=864]
+[ext_resource path="res://assets/img/players/vampirelord1ban.png" type="Texture" id=865]
+[ext_resource path="res://assets/img/players/wecatcher1b.png" type="Texture" id=866]
+[ext_resource path="res://assets/img/players/wecatcher1ban.png" type="Texture" id=867]
+[ext_resource path="res://assets/img/players/wecatcher2.png" type="Texture" id=868]
+[ext_resource path="res://assets/img/players/wecatcher2an.png" type="Texture" id=869]
+[ext_resource path="res://assets/img/players/wecatcher2b.png" type="Texture" id=870]
+[ext_resource path="res://assets/img/players/wecatcher2ban.png" type="Texture" id=871]
+[ext_resource path="res://assets/img/players/welineman1.png" type="Texture" id=872]
+[ext_resource path="res://assets/img/players/welineman1an.png" type="Texture" id=873]
+[ext_resource path="res://assets/img/players/welineman1b.png" type="Texture" id=874]
+[ext_resource path="res://assets/img/players/welineman1ban.png" type="Texture" id=875]
+[ext_resource path="res://assets/img/players/welineman2.png" type="Texture" id=876]
+[ext_resource path="res://assets/img/players/welineman2an.png" type="Texture" id=877]
+[ext_resource path="res://assets/img/players/welineman2b.png" type="Texture" id=878]
+[ext_resource path="res://assets/img/players/welineman2ban.png" type="Texture" id=879]
+[ext_resource path="res://assets/img/players/welineman3.png" type="Texture" id=880]
+[ext_resource path="res://assets/img/players/welineman3an.png" type="Texture" id=881]
+[ext_resource path="res://assets/img/players/welineman3b.png" type="Texture" id=882]
+[ext_resource path="res://assets/img/players/welineman3ban.png" type="Texture" id=883]
+[ext_resource path="res://assets/img/players/welineman4.png" type="Texture" id=884]
+[ext_resource path="res://assets/img/players/welineman4an.png" type="Texture" id=885]
+[ext_resource path="res://assets/img/players/welineman4b.png" type="Texture" id=886]
+[ext_resource path="res://assets/img/players/welineman4ban.png" type="Texture" id=887]
+[ext_resource path="res://assets/img/players/wethrower1.png" type="Texture" id=888]
+[ext_resource path="res://assets/img/players/wethrower1an.png" type="Texture" id=889]
+[ext_resource path="res://assets/img/players/wethrower1b.png" type="Texture" id=890]
+[ext_resource path="res://assets/img/players/wethrower1ban.png" type="Texture" id=891]
+[ext_resource path="res://assets/img/players/wethrower2.png" type="Texture" id=892]
+[ext_resource path="res://assets/img/players/wethrower2an.png" type="Texture" id=893]
+[ext_resource path="res://assets/img/players/wethrower2b.png" type="Texture" id=894]
+[ext_resource path="res://assets/img/players/wethrower2ban.png" type="Texture" id=895]
+[ext_resource path="res://assets/img/players/zabomination1.png" type="Texture" id=896]
+[ext_resource path="res://assets/img/players/zabomination1an.png" type="Texture" id=897]
+[ext_resource path="res://assets/img/players/zabomination1b.png" type="Texture" id=898]
+[ext_resource path="res://assets/img/players/zabomination1ban.png" type="Texture" id=899]
+[ext_resource path="res://assets/img/players/zabomination2.png" type="Texture" id=900]
+[ext_resource path="res://assets/img/players/zabomination2an.png" type="Texture" id=901]
+[ext_resource path="res://assets/img/players/zabomination2b.png" type="Texture" id=902]
+[ext_resource path="res://assets/img/players/zabomination2ban.png" type="Texture" id=903]
+[ext_resource path="res://assets/img/players/zabomination3.png" type="Texture" id=904]
+[ext_resource path="res://assets/img/players/zabomination3an.png" type="Texture" id=905]
+[ext_resource path="res://assets/img/players/zabomination3b.png" type="Texture" id=906]
+[ext_resource path="res://assets/img/players/zabomination3ban.png" type="Texture" id=907]
+[ext_resource path="res://assets/img/players/zabomination4.png" type="Texture" id=908]
+[ext_resource path="res://assets/img/players/zabomination4an.png" type="Texture" id=909]
+[ext_resource path="res://assets/img/players/zabomination4b.png" type="Texture" id=910]
+[ext_resource path="res://assets/img/players/zabomination4ban.png" type="Texture" id=911]
+[ext_resource path="res://assets/img/players/zchainsaw1.png" type="Texture" id=912]
+[ext_resource path="res://assets/img/players/zchainsaw1an.png" type="Texture" id=913]
+[ext_resource path="res://assets/img/players/zchainsaw1b.png" type="Texture" id=914]
+[ext_resource path="res://assets/img/players/zchainsaw1ban.png" type="Texture" id=915]
+[ext_resource path="res://assets/img/players/zgolem1.png" type="Texture" id=916]
+[ext_resource path="res://assets/img/players/zgolem1an.png" type="Texture" id=917]
+[ext_resource path="res://assets/img/players/zgolem1b.png" type="Texture" id=918]
+[ext_resource path="res://assets/img/players/zgolem1ban.png" type="Texture" id=919]
+[ext_resource path="res://assets/img/players/zgolem2.png" type="Texture" id=920]
+[ext_resource path="res://assets/img/players/zgolem2an.png" type="Texture" id=921]
+[ext_resource path="res://assets/img/players/zgolem2b.png" type="Texture" id=922]
+[ext_resource path="res://assets/img/players/zgolem2ban.png" type="Texture" id=923]
+[ext_resource path="res://assets/img/players/zgolem3.png" type="Texture" id=924]
+[ext_resource path="res://assets/img/players/zgolem3an.png" type="Texture" id=925]
+[ext_resource path="res://assets/img/players/zgolem3b.png" type="Texture" id=926]
+[ext_resource path="res://assets/img/players/zgolem3ban.png" type="Texture" id=927]
+[ext_resource path="res://assets/img/players/zgolem4.png" type="Texture" id=928]
+[ext_resource path="res://assets/img/players/zgolem4an.png" type="Texture" id=929]
+[ext_resource path="res://assets/img/players/zgolem4b.png" type="Texture" id=930]
+[ext_resource path="res://assets/img/players/zgolem4ban.png" type="Texture" id=931]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="amblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 51 )
+
+[node name="amblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 6 )
+
+[node name="amblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 28 )
+
+[node name="amblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 42 )
+
+[node name="amblitzer2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 45 )
+
+[node name="amblitzer2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 47 )
+
+[node name="amblitzer2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 50 )
+
+[node name="amblitzer2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 44 )
+
+[node name="amcatcher1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 26 )
+
+[node name="amcatcher1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 27 )
+
+[node name="amcatcher1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 5 )
+
+[node name="amcatcher1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 48 )
+
+[node name="amlineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 43 )
+
+[node name="amlineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 4 )
+
+[node name="amlineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 46 )
+
+[node name="amlineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 52 )
+
+[node name="amlineman2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 53 )
+
+[node name="amlineman2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 54 )
+
+[node name="amlineman2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 55 )
+
+[node name="amlineman2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 56 )
+
+[node name="amlineman3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 57 )
+
+[node name="amlineman3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 58 )
+
+[node name="amlineman3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 59 )
+
+[node name="amlineman3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 60 )
+
+[node name="amlineman4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 61 )
+
+[node name="amlineman4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 62 )
+
+[node name="amlineman4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 63 )
+
+[node name="amlineman4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 64 )
+
+[node name="amthrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 65 )
+
+[node name="amthrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 66 )
+
+[node name="amthrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 67 )
+
+[node name="amthrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 68 )
+
+[node name="bonusogre1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 69 )
+
+[node name="bonusogre1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 70 )
+
+[node name="bonusogre1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 71 )
+
+[node name="bonusogre1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 72 )
+
+[node name="bonusogre2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 73 )
+
+[node name="bonusogre2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 74 )
+
+[node name="bonusogre2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 75 )
+
+[node name="bonusogre2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 76 )
+
+[node name="bonusogre3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 77 )
+
+[node name="bonusogre3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 39 )
+
+[node name="bonusogre3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 78 )
+
+[node name="bonusogre3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 79 )
+
+[node name="bonusogre4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 80 )
+
+[node name="bonusogre4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 81 )
+
+[node name="bonusogre4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 82 )
+
+[node name="bonusogre4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 83 )
+
+[node name="bonusogre5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 84 )
+
+[node name="bonusogre5an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 85 )
+
+[node name="bonusogre5b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 86 )
+
+[node name="bonusogre5ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 87 )
+
+[node name="bonusogre6" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 88 )
+
+[node name="bonusogre6an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 89 )
+
+[node name="bonusogre6b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 90 )
+
+[node name="bonusogre6ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 91 )
+
+[node name="bonusogre7" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 92 )
+
+[node name="bonusogre7an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 93 )
+
+[node name="bonusogre7b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 94 )
+
+[node name="bonusogre7ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 95 )
+
+[node name="bonusogre8" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 96 )
+
+[node name="bonusogre8an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 97 )
+
+[node name="bonusogre8b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 98 )
+
+[node name="bonusogre8ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 99 )
+
+[node name="cbeastman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 100 )
+
+[node name="cbeastman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 101 )
+
+[node name="cbeastman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 102 )
+
+[node name="cbeastman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 103 )
+
+[node name="cbeastman2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 104 )
+
+[node name="cbeastman2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 105 )
+
+[node name="cbeastman2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 106 )
+
+[node name="cbeastman2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 107 )
+
+[node name="cbeastman3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 108 )
+
+[node name="cbeastman3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 109 )
+
+[node name="cbeastman3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 110 )
+
+[node name="cbeastman3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 111 )
+
+[node name="cbeastman4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 112 )
+
+[node name="cbeastman4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 113 )
+
+[node name="cbeastman4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 114 )
+
+[node name="cbeastman4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 115 )
+
+[node name="CDDWARF1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 25 )
+
+[node name="cddwarf1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 116 )
+
+[node name="cddwarf1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 117 )
+
+[node name="cddwarf1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 118 )
+
+[node name="CDDWARF2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 119 )
+
+[node name="cddwarf2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 120 )
+
+[node name="cddwarf2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 121 )
+
+[node name="cddwarf2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 122 )
+
+[node name="CDDWARF3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 123 )
+
+[node name="cddwarf3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 124 )
+
+[node name="cddwarf3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 125 )
+
+[node name="cddwarf3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 126 )
+
+[node name="CDDWARF4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 127 )
+
+[node name="cddwarf4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 128 )
+
+[node name="cddwarf4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 129 )
+
+[node name="cddwarf4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 130 )
+
+[node name="CDDWARF5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 131 )
+
+[node name="cddwarf5an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 2 )
+
+[node name="cddwarf5b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 49 )
+
+[node name="cddwarf5ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 132 )
+
+[node name="CDDWARF6" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 133 )
+
+[node name="cddwarf6an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 134 )
+
+[node name="cddwarf6b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 135 )
+
+[node name="cddwarf6ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 136 )
+
+[node name="cdhobgoblin1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 137 )
+
+[node name="cdhobgoblin1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 138 )
+
+[node name="cdhobgoblin1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 139 )
+
+[node name="cdhobgoblin1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 140 )
+
+[node name="cdhobgoblin2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 141 )
+
+[node name="cdhobgoblin2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 142 )
+
+[node name="cdhobgoblin2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 143 )
+
+[node name="cdhobgoblin2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 144 )
+
+[node name="CENTAUR1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 145 )
+
+[node name="centaur1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 146 )
+
+[node name="centaur1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 147 )
+
+[node name="centaur1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 148 )
+
+[node name="CENTAUR2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 149 )
+
+[node name="centaur2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 150 )
+
+[node name="centaur2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 151 )
+
+[node name="centaur2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 152 )
+
+[node name="chalfling1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 153 )
+
+[node name="chalfling1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 154 )
+
+[node name="chalfling1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 155 )
+
+[node name="chalfling1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 156 )
+
+[node name="chalfling2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 157 )
+
+[node name="chalfling2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 158 )
+
+[node name="chalfling2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 159 )
+
+[node name="chalfling2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 160 )
+
+[node name="chalfling3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 161 )
+
+[node name="chalfling3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 162 )
+
+[node name="chalfling3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 163 )
+
+[node name="chalfling3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 164 )
+
+[node name="chalfling4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 165 )
+
+[node name="chalfling4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 166 )
+
+[node name="chalfling4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 167 )
+
+[node name="chalfling4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 168 )
+
+[node name="chalfling5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 169 )
+
+[node name="chalfling5an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 170 )
+
+[node name="chalfling5b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 171 )
+
+[node name="chalfling5ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 40 )
+
+[node name="COGRE1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 172 )
+
+[node name="COGRE1AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 173 )
+
+[node name="COGRE1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 174 )
+
+[node name="cogre1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 175 )
+
+[node name="cwarrior1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 176 )
+
+[node name="cwarrior1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 177 )
+
+[node name="cwarrior1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 178 )
+
+[node name="cwarrior1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 179 )
+
+[node name="cwarrior2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 180 )
+
+[node name="cwarrior2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 181 )
+
+[node name="cwarrior2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 182 )
+
+[node name="cwarrior2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 183 )
+
+[node name="cwarrior3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 184 )
+
+[node name="cwarrior3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 185 )
+
+[node name="cwarrior3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 186 )
+
+[node name="cwarrior3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 187 )
+
+[node name="cwarrior4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 188 )
+
+[node name="cwarrior4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 189 )
+
+[node name="cwarrior4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 190 )
+
+[node name="cwarrior4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 191 )
+
+[node name="dblackhunter1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 192 )
+
+[node name="dblackhunter1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 193 )
+
+[node name="dblackhunter1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 194 )
+
+[node name="dblackhunter1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 195 )
+
+[node name="dblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 196 )
+
+[node name="dblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 197 )
+
+[node name="dblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 198 )
+
+[node name="dblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 199 )
+
+[node name="dblitzer2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 200 )
+
+[node name="dblitzer2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 201 )
+
+[node name="dblitzer2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 202 )
+
+[node name="dblitzer2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 203 )
+
+[node name="dblunderbuss1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 204 )
+
+[node name="dblunderbuss1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 205 )
+
+[node name="dblunderbuss1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 206 )
+
+[node name="dblunderbuss1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 207 )
+
+[node name="dchainsaw1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 208 )
+
+[node name="dchainsaw1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 209 )
+
+[node name="dchainsaw1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 210 )
+
+[node name="dchainsaw1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 211 )
+
+[node name="DDAMNED1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 212 )
+
+[node name="ddamned1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 213 )
+
+[node name="ddamned1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 214 )
+
+[node name="ddamned1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 215 )
+
+[node name="ddeathroller1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 216 )
+
+[node name="ddeathroller1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 217 )
+
+[node name="ddeathroller1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 218 )
+
+[node name="ddeathroller1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 219 )
+
+[node name="deblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 220 )
+
+[node name="deblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 221 )
+
+[node name="deblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 222 )
+
+[node name="deblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 223 )
+
+[node name="delineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 224 )
+
+[node name="delineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 225 )
+
+[node name="delineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 226 )
+
+[node name="delineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 227 )
+
+[node name="dethrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 228 )
+
+[node name="dethrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 229 )
+
+[node name="dethrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 230 )
+
+[node name="dethrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 231 )
+
+[node name="dewitchelf1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 232 )
+
+[node name="dewitchelf1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 233 )
+
+[node name="dewitchelf1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 234 )
+
+[node name="dewitchelf1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 235 )
+
+[node name="dewitchelf2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 236 )
+
+[node name="dewitchelf2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 237 )
+
+[node name="dewitchelf2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 238 )
+
+[node name="dewitchelf2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 239 )
+
+[node name="dlongbeard1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 240 )
+
+[node name="dlongbeard1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 241 )
+
+[node name="dlongbeard1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 242 )
+
+[node name="dlongbeard1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 243 )
+
+[node name="dlongbeard2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 244 )
+
+[node name="dlongbeard2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 245 )
+
+[node name="dlongbeard2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 246 )
+
+[node name="dlongbeard2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 247 )
+
+[node name="dlongbeard3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 248 )
+
+[node name="dlongbeard3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 249 )
+
+[node name="dlongbeard3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 250 )
+
+[node name="dlongbeard3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 251 )
+
+[node name="DRUNNER1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 252 )
+
+[node name="drunner1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 253 )
+
+[node name="drunner1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 254 )
+
+[node name="drunner1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 255 )
+
+[node name="DRUNNER2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 256 )
+
+[node name="drunner2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 257 )
+
+[node name="drunner2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 258 )
+
+[node name="drunner2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 259 )
+
+[node name="DRUNNER3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 260 )
+
+[node name="drunner3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 261 )
+
+[node name="drunner3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 262 )
+
+[node name="drunner3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 263 )
+
+[node name="DSHADOW1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 264 )
+
+[node name="dshadow1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 265 )
+
+[node name="dshadow1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 266 )
+
+[node name="dshadow1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 267 )
+
+[node name="DSLAYER1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 268 )
+
+[node name="dslayer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 269 )
+
+[node name="dslayer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 270 )
+
+[node name="dslayer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 271 )
+
+[node name="DSLAYER2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 272 )
+
+[node name="dslayer2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 273 )
+
+[node name="dslayer2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 274 )
+
+[node name="dslayer2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 275 )
+
+[node name="dtorturer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 276 )
+
+[node name="dtorturer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 277 )
+
+[node name="dtorturer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 278 )
+
+[node name="dtorturer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 279 )
+
+[node name="dwarfref1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 280 )
+
+[node name="dwarfref1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 281 )
+
+[node name="epblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 282 )
+
+[node name="epblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 283 )
+
+[node name="epblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 284 )
+
+[node name="epblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 285 )
+
+[node name="epcatcher1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 286 )
+
+[node name="epcatcher1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 287 )
+
+[node name="epcatcher1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 288 )
+
+[node name="epcatcher1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 289 )
+
+[node name="eplineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 290 )
+
+[node name="eplineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 291 )
+
+[node name="eplineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 292 )
+
+[node name="eplineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 293 )
+
+[node name="epthrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 294 )
+
+[node name="epthrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 295 )
+
+[node name="epthrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 296 )
+
+[node name="epthrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 297 )
+
+[node name="GOBALL1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 298 )
+
+[node name="goball1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 299 )
+
+[node name="GOBALL1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 300 )
+
+[node name="goball1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 301 )
+
+[node name="GOBLIN1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 302 )
+
+[node name="goblin1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 303 )
+
+[node name="GOBLIN1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 304 )
+
+[node name="goblin1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 305 )
+
+[node name="GOBLIN2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 306 )
+
+[node name="goblin2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 307 )
+
+[node name="GOBLIN2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 308 )
+
+[node name="goblin2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 309 )
+
+[node name="GOBLIN3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 310 )
+
+[node name="goblin3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 311 )
+
+[node name="GOBLIN3B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 312 )
+
+[node name="goblin3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 313 )
+
+[node name="GOBLIN4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 314 )
+
+[node name="goblin4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 315 )
+
+[node name="GOBLIN4B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 316 )
+
+[node name="goblin4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 317 )
+
+[node name="GOBLIN5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 318 )
+
+[node name="goblin5an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 38 )
+
+[node name="GOBLIN5B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 319 )
+
+[node name="goblin5ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 320 )
+
+[node name="GOBOMB1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 321 )
+
+[node name="gobomb1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 322 )
+
+[node name="GOBOMB1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 323 )
+
+[node name="gobomb1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 324 )
+
+[node name="GOGRE1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 325 )
+
+[node name="GOGRE1AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 326 )
+
+[node name="GOGRE1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 327 )
+
+[node name="gogre1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 328 )
+
+[node name="GOGRE2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 329 )
+
+[node name="GOGRE2AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 330 )
+
+[node name="GOGRE2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 331 )
+
+[node name="gogre2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 332 )
+
+[node name="grailknight1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 333 )
+
+[node name="grailknight1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 334 )
+
+[node name="grailknight1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 335 )
+
+[node name="grailknight1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 336 )
+
+[node name="grailknight2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 337 )
+
+[node name="grailknight2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 338 )
+
+[node name="grailknight2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 339 )
+
+[node name="grailknight2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 340 )
+
+[node name="GTIGER" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 341 )
+
+[node name="GTIGERAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 342 )
+
+[node name="GTIGERB" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 343 )
+
+[node name="gtigerban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 344 )
+
+[node name="halfling1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 345 )
+
+[node name="halfling1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 346 )
+
+[node name="halfling1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 347 )
+
+[node name="halfling1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 348 )
+
+[node name="halfling2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 349 )
+
+[node name="halfling2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 350 )
+
+[node name="halfling2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 351 )
+
+[node name="halfling2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 352 )
+
+[node name="halfling3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 353 )
+
+[node name="halfling3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 354 )
+
+[node name="halfling3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 355 )
+
+[node name="halfling3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 356 )
+
+[node name="halfling4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 357 )
+
+[node name="halfling4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 358 )
+
+[node name="halfling4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 359 )
+
+[node name="halfling4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 360 )
+
+[node name="halfling5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 361 )
+
+[node name="halfling5an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 362 )
+
+[node name="halfling5b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 363 )
+
+[node name="halfling5ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 364 )
+
+[node name="hblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 365 )
+
+[node name="hblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 366 )
+
+[node name="hblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 367 )
+
+[node name="hblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 368 )
+
+[node name="hblitzer2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 369 )
+
+[node name="hblitzer2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 370 )
+
+[node name="hblitzer2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 371 )
+
+[node name="hblitzer2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 372 )
+
+[node name="hblitzer3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 373 )
+
+[node name="hblitzer3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 374 )
+
+[node name="hblitzer3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 375 )
+
+[node name="hblitzer3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 376 )
+
+[node name="hcatcher1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 377 )
+
+[node name="hcatcher1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 378 )
+
+[node name="hcatcher1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 379 )
+
+[node name="hcatcher1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 380 )
+
+[node name="hcatcher2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 381 )
+
+[node name="hcatcher2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 382 )
+
+[node name="hcatcher2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 383 )
+
+[node name="hcatcher2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 384 )
+
+[node name="heblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 385 )
+
+[node name="heblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 386 )
+
+[node name="heblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 387 )
+
+[node name="heblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 388 )
+
+[node name="hecatcher1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 389 )
+
+[node name="hecatcher1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 390 )
+
+[node name="hecatcher1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 391 )
+
+[node name="hecatcher1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 392 )
+
+[node name="helineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 393 )
+
+[node name="helineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 394 )
+
+[node name="helineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 395 )
+
+[node name="helineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 396 )
+
+[node name="hethrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 397 )
+
+[node name="hethrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 398 )
+
+[node name="hethrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 399 )
+
+[node name="hethrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 400 )
+
+[node name="hlineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 401 )
+
+[node name="hlineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 402 )
+
+[node name="hlineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 403 )
+
+[node name="hlineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 37 )
+
+[node name="hlineman2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 36 )
+
+[node name="hlineman2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 35 )
+
+[node name="hlineman2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 34 )
+
+[node name="hlineman2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 33 )
+
+[node name="hlineman3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 32 )
+
+[node name="hlineman3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 31 )
+
+[node name="hlineman3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 30 )
+
+[node name="hlineman3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 404 )
+
+[node name="HOGRE1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 405 )
+
+[node name="HOGRE1AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 406 )
+
+[node name="HOGRE1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 407 )
+
+[node name="hogre1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 408 )
+
+[node name="hthrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 409 )
+
+[node name="hthrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 410 )
+
+[node name="hthrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 411 )
+
+[node name="hthrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 412 )
+
+[node name="humanref1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 413 )
+
+[node name="kmblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 414 )
+
+[node name="kmblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 415 )
+
+[node name="kmblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 416 )
+
+[node name="kmblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 417 )
+
+[node name="KMMUMMY1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 418 )
+
+[node name="kmmummy1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 419 )
+
+[node name="kmmummy1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 420 )
+
+[node name="kmmummy1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 421 )
+
+[node name="KMMUMMY2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 422 )
+
+[node name="kmmummy2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 423 )
+
+[node name="kmmummy2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 424 )
+
+[node name="kmmummy2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 425 )
+
+[node name="kmskeleton1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 426 )
+
+[node name="kmskeleton1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 427 )
+
+[node name="kmskeleton1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 428 )
+
+[node name="kmskeleton1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 429 )
+
+[node name="kmthrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 430 )
+
+[node name="kmthrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 431 )
+
+[node name="kmthrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 432 )
+
+[node name="kmthrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 433 )
+
+[node name="KNIGHT1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 434 )
+
+[node name="knight1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 435 )
+
+[node name="KNIGHT1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 436 )
+
+[node name="knight1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 437 )
+
+[node name="KNIGHT2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 438 )
+
+[node name="knight2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 439 )
+
+[node name="KNIGHT2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 440 )
+
+[node name="knight2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 441 )
+
+[node name="KNIGHT3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 442 )
+
+[node name="knight3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 443 )
+
+[node name="KNIGHT3B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 444 )
+
+[node name="knight3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 445 )
+
+[node name="KNIGHT4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 446 )
+
+[node name="knight4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 447 )
+
+[node name="KNIGHT4B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 448 )
+
+[node name="knight4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 449 )
+
+[node name="knighterrant1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 450 )
+
+[node name="knighterrant1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 451 )
+
+[node name="knighterrant1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 452 )
+
+[node name="knighterrant1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 453 )
+
+[node name="knighterrant2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 454 )
+
+[node name="knighterrant2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 455 )
+
+[node name="knighterrant2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 456 )
+
+[node name="knighterrant2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 457 )
+
+[node name="kroxigor1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 458 )
+
+[node name="kroxigor1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 459 )
+
+[node name="kroxigor1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 460 )
+
+[node name="kroxigor1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 461 )
+
+[node name="lmsaurus1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 462 )
+
+[node name="lmsaurus1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 463 )
+
+[node name="lmsaurus1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 464 )
+
+[node name="lmsaurus1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 465 )
+
+[node name="lmsaurus2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 466 )
+
+[node name="lmsaurus2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 467 )
+
+[node name="lmsaurus2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 468 )
+
+[node name="lmsaurus2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 469 )
+
+[node name="lmsaurus3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 470 )
+
+[node name="lmsaurus3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 471 )
+
+[node name="lmsaurus3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 472 )
+
+[node name="lmsaurus3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 473 )
+
+[node name="lmsaurus4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 474 )
+
+[node name="lmsaurus4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 475 )
+
+[node name="lmsaurus4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 476 )
+
+[node name="lmsaurus4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 477 )
+
+[node name="lmsaurus5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 478 )
+
+[node name="lmsaurus5an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 479 )
+
+[node name="lmsaurus5b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 29 )
+
+[node name="lmsaurus5ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 41 )
+
+[node name="lmsaurus6" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 8 )
+
+[node name="lmsaurus6an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 480 )
+
+[node name="lmsaurus6b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 481 )
+
+[node name="lmsaurus6ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 482 )
+
+[node name="LMSKINK1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 483 )
+
+[node name="lmskink1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 484 )
+
+[node name="lmskink1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 485 )
+
+[node name="lmskink1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 486 )
+
+[node name="LMSKINK2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 487 )
+
+[node name="lmskink2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 488 )
+
+[node name="lmskink2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 489 )
+
+[node name="lmskink2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 490 )
+
+[node name="LMSKINK3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 491 )
+
+[node name="lmskink3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 492 )
+
+[node name="lmskink3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 493 )
+
+[node name="lmskink3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 494 )
+
+[node name="LMSKINK4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 495 )
+
+[node name="lmskink4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 496 )
+
+[node name="lmskink4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 497 )
+
+[node name="lmskink4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 498 )
+
+[node name="LMSKINK5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 499 )
+
+[node name="lmskink5an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 500 )
+
+[node name="lmskink5b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 501 )
+
+[node name="lmskink5ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 502 )
+
+[node name="LMSKINK6" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 7 )
+
+[node name="lmskink6an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 503 )
+
+[node name="lmskink6b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 504 )
+
+[node name="lmskink6ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 505 )
+
+[node name="minotaur1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 506 )
+
+[node name="minotaur1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 507 )
+
+[node name="minotaur1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 508 )
+
+[node name="minotaur1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 509 )
+
+[node name="minotaur2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 510 )
+
+[node name="minotaur2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 511 )
+
+[node name="minotaur2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 512 )
+
+[node name="minotaur2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 9 )
+
+[node name="minotaurndc1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 513 )
+
+[node name="minotaurndc1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 514 )
+
+[node name="minotaurndc1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 515 )
+
+[node name="minotaurndc1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 516 )
+
+[node name="NBEAST1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 517 )
+
+[node name="nbeast1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 518 )
+
+[node name="NBEAST1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 519 )
+
+[node name="nbeast1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 520 )
+
+[node name="nbeastman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 521 )
+
+[node name="nbeastman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 522 )
+
+[node name="nbeastman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 523 )
+
+[node name="nbeastman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 524 )
+
+[node name="nbeastman2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 525 )
+
+[node name="nbeastman2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 526 )
+
+[node name="nbeastman2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 527 )
+
+[node name="nbeastman2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 528 )
+
+[node name="nbeastman3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 529 )
+
+[node name="nbeastman3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 530 )
+
+[node name="nbeastman3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 531 )
+
+[node name="nbeastman3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 532 )
+
+[node name="nbeastman4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 533 )
+
+[node name="nbeastman4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 534 )
+
+[node name="nbeastman4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 535 )
+
+[node name="nbeastman4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 536 )
+
+[node name="nblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 537 )
+
+[node name="nblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 538 )
+
+[node name="nblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 539 )
+
+[node name="nblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 540 )
+
+[node name="ncatcher1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 541 )
+
+[node name="ncatcher1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 542 )
+
+[node name="ncatcher1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 543 )
+
+[node name="ncatcher1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 544 )
+
+[node name="NGHOUL1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 545 )
+
+[node name="nghoul1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 546 )
+
+[node name="NGHOUL1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 547 )
+
+[node name="nghoul1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 548 )
+
+[node name="NGHOUL2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 549 )
+
+[node name="nghoul2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 550 )
+
+[node name="NGHOUL2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 551 )
+
+[node name="nghoul2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 552 )
+
+[node name="NGOLEM1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 553 )
+
+[node name="ngolem1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 554 )
+
+[node name="NGOLEM1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 555 )
+
+[node name="ngolem1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 556 )
+
+[node name="NGOLEM2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 557 )
+
+[node name="ngolem2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 558 )
+
+[node name="NGOLEM2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 559 )
+
+[node name="ngolem2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 560 )
+
+[node name="nlineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 561 )
+
+[node name="nlineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 562 )
+
+[node name="nlineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 563 )
+
+[node name="nlineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 564 )
+
+[node name="nlineman2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 565 )
+
+[node name="nlineman2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 566 )
+
+[node name="nlineman2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 567 )
+
+[node name="nlineman2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 568 )
+
+[node name="NROTTER1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 569 )
+
+[node name="nrotter1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 570 )
+
+[node name="nrotter1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 571 )
+
+[node name="nrotter1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 10 )
+
+[node name="NROTTER2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 11 )
+
+[node name="nrotter2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 572 )
+
+[node name="nrotter2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 573 )
+
+[node name="nrotter2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 574 )
+
+[node name="NROTTER3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 575 )
+
+[node name="nrotter3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 576 )
+
+[node name="nrotter3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 577 )
+
+[node name="nrotter3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 578 )
+
+[node name="NROTTER4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 579 )
+
+[node name="nrotter4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 580 )
+
+[node name="nrotter4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 581 )
+
+[node name="nrotter4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 582 )
+
+[node name="nthrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 583 )
+
+[node name="nthrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 584 )
+
+[node name="nthrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 585 )
+
+[node name="nthrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 586 )
+
+[node name="nwerewolf1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 587 )
+
+[node name="nwerewolf1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 588 )
+
+[node name="nwerewolf1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 589 )
+
+[node name="nwerewolf1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 590 )
+
+[node name="NWIGHT1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 591 )
+
+[node name="nwight1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 592 )
+
+[node name="NWIGHT1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 593 )
+
+[node name="nwight1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 594 )
+
+[node name="NWIGHT2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 595 )
+
+[node name="nwight2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 596 )
+
+[node name="NWIGHT2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 597 )
+
+[node name="nwight2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 598 )
+
+[node name="oblackorc1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 599 )
+
+[node name="oblackorc1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 600 )
+
+[node name="oblackorc1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 601 )
+
+[node name="oblackorc1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 602 )
+
+[node name="oblackorc2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 603 )
+
+[node name="oblackorc2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 604 )
+
+[node name="oblackorc2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 605 )
+
+[node name="oblackorc2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 606 )
+
+[node name="oblackorc3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 607 )
+
+[node name="oblackorc3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 608 )
+
+[node name="oblackorc3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 609 )
+
+[node name="oblackorc3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 610 )
+
+[node name="oblackorc4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 611 )
+
+[node name="oblackorc4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 612 )
+
+[node name="oblackorc4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 613 )
+
+[node name="oblackorc4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 614 )
+
+[node name="oblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 615 )
+
+[node name="oblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 616 )
+
+[node name="oblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 617 )
+
+[node name="oblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 618 )
+
+[node name="OGRE1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 619 )
+
+[node name="OGRE1AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 620 )
+
+[node name="OGRE1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 621 )
+
+[node name="OGRE1BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 622 )
+
+[node name="OGRE2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 12 )
+
+[node name="OGRE2AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 623 )
+
+[node name="OGRE2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 624 )
+
+[node name="OGRE2BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 625 )
+
+[node name="OGRE3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 626 )
+
+[node name="OGRE3AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 627 )
+
+[node name="OGRE3B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 628 )
+
+[node name="OGRE3BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 629 )
+
+[node name="OGRE4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 630 )
+
+[node name="OGRE4AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 631 )
+
+[node name="OGRE4B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 632 )
+
+[node name="OGRE4BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 633 )
+
+[node name="OGRE5" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 634 )
+
+[node name="OGRE5AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 13 )
+
+[node name="OGRE5B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 635 )
+
+[node name="OGRE5BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 636 )
+
+[node name="OGRE6" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 637 )
+
+[node name="OGRE6AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 638 )
+
+[node name="OGRE6B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 639 )
+
+[node name="OGRE6BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 640 )
+
+[node name="OGRE7" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 641 )
+
+[node name="OGRE7AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 642 )
+
+[node name="OGRE7B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 643 )
+
+[node name="OGRE7BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 644 )
+
+[node name="OGRE8" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 645 )
+
+[node name="OGRE8AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 646 )
+
+[node name="OGRE8B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 647 )
+
+[node name="OGRE8BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 648 )
+
+[node name="olineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 649 )
+
+[node name="olineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 650 )
+
+[node name="olineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 3 )
+
+[node name="olineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 651 )
+
+[node name="othrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 652 )
+
+[node name="othrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 1 )
+
+[node name="othrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 653 )
+
+[node name="othrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 654 )
+
+[node name="PEASANT1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 655 )
+
+[node name="peasant1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 656 )
+
+[node name="peasant1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 657 )
+
+[node name="peasant1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 658 )
+
+[node name="PEASANT2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 659 )
+
+[node name="peasant2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 660 )
+
+[node name="peasant2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 661 )
+
+[node name="peasant2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 662 )
+
+[node name="PEASANT3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 663 )
+
+[node name="peasant3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 664 )
+
+[node name="peasant3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 665 )
+
+[node name="peasant3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 666 )
+
+[node name="POGO1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 667 )
+
+[node name="POGO1AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 668 )
+
+[node name="POGO1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 669 )
+
+[node name="POGO1BAN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 670 )
+
+[node name="posseded1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 671 )
+
+[node name="posseded1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 672 )
+
+[node name="posseded1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 673 )
+
+[node name="posseded1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 674 )
+
+[node name="posseded2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 675 )
+
+[node name="posseded2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 676 )
+
+[node name="posseded2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 677 )
+
+[node name="posseded2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 678 )
+
+[node name="PURRER1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 679 )
+
+[node name="purrer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 680 )
+
+[node name="PURRER1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 681 )
+
+[node name="purrer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 682 )
+
+[node name="PURRER2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 683 )
+
+[node name="purrer2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 684 )
+
+[node name="PURRER2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 685 )
+
+[node name="purrer2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 686 )
+
+[node name="PURRER3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 687 )
+
+[node name="purrer3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 688 )
+
+[node name="PURRER3B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 689 )
+
+[node name="purrer3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 690 )
+
+[node name="RATOGRE1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 691 )
+
+[node name="ratogre1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 692 )
+
+[node name="ratogre1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 693 )
+
+[node name="ratogre1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 694 )
+
+[node name="scurrier1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 695 )
+
+[node name="scurrier1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 696 )
+
+[node name="scurrier1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 697 )
+
+[node name="scurrier1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 698 )
+
+[node name="scurrier2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 699 )
+
+[node name="scurrier2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 700 )
+
+[node name="scurrier2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 701 )
+
+[node name="scurrier2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 14 )
+
+[node name="sklineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 702 )
+
+[node name="sklineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 703 )
+
+[node name="sklineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 704 )
+
+[node name="sklineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 705 )
+
+[node name="skrunner1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 706 )
+
+[node name="skrunner1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 707 )
+
+[node name="skrunner1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 708 )
+
+[node name="skrunner1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 709 )
+
+[node name="SKSTORM1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 710 )
+
+[node name="skstorm1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 711 )
+
+[node name="skstorm1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 712 )
+
+[node name="skstorm1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 713 )
+
+[node name="skthrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 714 )
+
+[node name="skthrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 715 )
+
+[node name="skthrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 716 )
+
+[node name="skthrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 717 )
+
+[node name="SLASHER1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 718 )
+
+[node name="slasher1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 719 )
+
+[node name="slasher1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 720 )
+
+[node name="slasher1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 721 )
+
+[node name="SLASHER2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 722 )
+
+[node name="slasher2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 723 )
+
+[node name="slasher2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 724 )
+
+[node name="slasher2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 725 )
+
+[node name="SLASHER3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 726 )
+
+[node name="slasher3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 727 )
+
+[node name="slasher3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 728 )
+
+[node name="slasher3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 729 )
+
+[node name="squig1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 730 )
+
+[node name="squig1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 731 )
+
+[node name="squig1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 732 )
+
+[node name="squig1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 733 )
+
+[node name="tbedouin1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 734 )
+
+[node name="tbedouin1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 735 )
+
+[node name="tbedouin1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 736 )
+
+[node name="tbedouin1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 737 )
+
+[node name="tbedouin2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 738 )
+
+[node name="tbedouin2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 739 )
+
+[node name="tbedouin2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 740 )
+
+[node name="tbedouin2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 741 )
+
+[node name="tbedouin3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 742 )
+
+[node name="tbedouin3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 743 )
+
+[node name="tbedouin3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 744 )
+
+[node name="tbedouin3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 745 )
+
+[node name="tbedouin4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 746 )
+
+[node name="tbedouin4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 747 )
+
+[node name="tbedouin4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 748 )
+
+[node name="tbedouin4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 749 )
+
+[node name="TCHEIKH1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 750 )
+
+[node name="tcheikh1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 751 )
+
+[node name="tcheikh1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 752 )
+
+[node name="tcheikh1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 753 )
+
+[node name="tderviche1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 754 )
+
+[node name="tderviche1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 755 )
+
+[node name="tderviche1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 756 )
+
+[node name="tderviche1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 757 )
+
+[node name="tderviche2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 758 )
+
+[node name="tderviche2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 759 )
+
+[node name="tderviche2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 760 )
+
+[node name="tderviche2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 761 )
+
+[node name="TEUNUK1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 762 )
+
+[node name="teunuk1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 763 )
+
+[node name="TEUNUK1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 764 )
+
+[node name="teunuk1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 765 )
+
+[node name="TEUNUK2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 766 )
+
+[node name="teunuk2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 767 )
+
+[node name="TEUNUK2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 768 )
+
+[node name="teunuk2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 769 )
+
+[node name="tlanceur1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 770 )
+
+[node name="tlanceur1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 771 )
+
+[node name="tlanceur1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 772 )
+
+[node name="tlanceur1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 773 )
+
+[node name="TREEMAN1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 774 )
+
+[node name="treeman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 775 )
+
+[node name="treeman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 776 )
+
+[node name="treeman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 777 )
+
+[node name="TREEMAN2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 778 )
+
+[node name="treeman2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 779 )
+
+[node name="treeman2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 780 )
+
+[node name="treeman2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 781 )
+
+[node name="TROLL1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 782 )
+
+[node name="TROLL1AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 783 )
+
+[node name="TROLL1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 784 )
+
+[node name="troll1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 785 )
+
+[node name="TROLL2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 786 )
+
+[node name="TROLL2AN" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 787 )
+
+[node name="TROLL2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 788 )
+
+[node name="troll2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 789 )
+
+[node name="trollchaos1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 790 )
+
+[node name="trollchaos1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 791 )
+
+[node name="trollchaos1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 792 )
+
+[node name="trollchaos1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 793 )
+
+[node name="trolljungle1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 794 )
+
+[node name="trolljungle1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 795 )
+
+[node name="trolljungle1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 796 )
+
+[node name="trolljungle1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 797 )
+
+[node name="trollndc1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 798 )
+
+[node name="trollndc1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 799 )
+
+[node name="trollndc1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 800 )
+
+[node name="trollndc1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 801 )
+
+[node name="trollorc1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 802 )
+
+[node name="trollorc1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 803 )
+
+[node name="trollorc1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 804 )
+
+[node name="trollorc1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 805 )
+
+[node name="trollsnow1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 806 )
+
+[node name="trollsnow1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 807 )
+
+[node name="trollsnow1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 808 )
+
+[node name="trollsnow1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 809 )
+
+[node name="UGHOUL1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 810 )
+
+[node name="ughoul1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 811 )
+
+[node name="UGHOUL1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 812 )
+
+[node name="ughoul1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 813 )
+
+[node name="UGHOUL2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 814 )
+
+[node name="ughoul2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 815 )
+
+[node name="UGHOUL2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 816 )
+
+[node name="ughoul2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 817 )
+
+[node name="UGHOUL3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 818 )
+
+[node name="ughoul3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 819 )
+
+[node name="UGHOUL3B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 820 )
+
+[node name="ughoul3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 821 )
+
+[node name="UGHOUL4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 822 )
+
+[node name="ughoul4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 823 )
+
+[node name="UGHOUL4B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 824 )
+
+[node name="ughoul4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 825 )
+
+[node name="UMUMMY1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 826 )
+
+[node name="umummy1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 827 )
+
+[node name="UMUMMY1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 828 )
+
+[node name="umummy1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 829 )
+
+[node name="UWIGHT1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 830 )
+
+[node name="uwight1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 831 )
+
+[node name="UWIGHT1B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 832 )
+
+[node name="uwight1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 833 )
+
+[node name="UWIGHT2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 834 )
+
+[node name="uwight2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 835 )
+
+[node name="UWIGHT2B" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 836 )
+
+[node name="uwight2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 837 )
+
+[node name="UZOMBIE1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 838 )
+
+[node name="uzombie1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 839 )
+
+[node name="uzombie1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 840 )
+
+[node name="uzombie1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 841 )
+
+[node name="UZOMBIE2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 842 )
+
+[node name="uzombie2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 843 )
+
+[node name="uzombie2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 844 )
+
+[node name="uzombie2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 845 )
+
+[node name="VAMPIRE1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 846 )
+
+[node name="vampire1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 847 )
+
+[node name="vampire1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 848 )
+
+[node name="vampire1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 849 )
+
+[node name="VAMPIRE2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 850 )
+
+[node name="vampire2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 851 )
+
+[node name="vampire2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 852 )
+
+[node name="vampire2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 853 )
+
+[node name="VAMPIRE3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 854 )
+
+[node name="vampire3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 855 )
+
+[node name="vampire3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 856 )
+
+[node name="vampire3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 857 )
+
+[node name="VAMPIRE4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 858 )
+
+[node name="vampire4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 859 )
+
+[node name="vampire4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 860 )
+
+[node name="vampire4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 861 )
+
+[node name="vampirelord1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 862 )
+
+[node name="vampirelord1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 863 )
+
+[node name="vampirelord1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 864 )
+
+[node name="vampirelord1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 865 )
+
+[node name="weblitzer1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 15 )
+
+[node name="weblitzer1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 16 )
+
+[node name="weblitzer1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 17 )
+
+[node name="weblitzer1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 18 )
+
+[node name="weblitzer2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 19 )
+
+[node name="weblitzer2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 20 )
+
+[node name="weblitzer2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 21 )
+
+[node name="weblitzer2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 22 )
+
+[node name="wecatcher1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 23 )
+
+[node name="wecatcher1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 24 )
+
+[node name="wecatcher1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 866 )
+
+[node name="wecatcher1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 867 )
+
+[node name="wecatcher2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 868 )
+
+[node name="wecatcher2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 869 )
+
+[node name="wecatcher2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 870 )
+
+[node name="wecatcher2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 871 )
+
+[node name="welineman1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 872 )
+
+[node name="welineman1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 873 )
+
+[node name="welineman1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 874 )
+
+[node name="welineman1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 875 )
+
+[node name="welineman2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 876 )
+
+[node name="welineman2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 877 )
+
+[node name="welineman2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 878 )
+
+[node name="welineman2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 879 )
+
+[node name="welineman3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 880 )
+
+[node name="welineman3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 881 )
+
+[node name="welineman3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 882 )
+
+[node name="welineman3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 883 )
+
+[node name="welineman4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 884 )
+
+[node name="welineman4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 885 )
+
+[node name="welineman4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 886 )
+
+[node name="welineman4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 887 )
+
+[node name="wethrower1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 888 )
+
+[node name="wethrower1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 889 )
+
+[node name="wethrower1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 890 )
+
+[node name="wethrower1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 891 )
+
+[node name="wethrower2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 892 )
+
+[node name="wethrower2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 893 )
+
+[node name="wethrower2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 894 )
+
+[node name="wethrower2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 895 )
+
+[node name="zabomination1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 896 )
+
+[node name="zabomination1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 897 )
+
+[node name="zabomination1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 898 )
+
+[node name="zabomination1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 899 )
+
+[node name="zabomination2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 900 )
+
+[node name="zabomination2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 901 )
+
+[node name="zabomination2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 902 )
+
+[node name="zabomination2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 903 )
+
+[node name="zabomination3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 904 )
+
+[node name="zabomination3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 905 )
+
+[node name="zabomination3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 906 )
+
+[node name="zabomination3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 907 )
+
+[node name="zabomination4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 908 )
+
+[node name="zabomination4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 909 )
+
+[node name="zabomination4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 910 )
+
+[node name="zabomination4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 911 )
+
+[node name="zchainsaw1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 912 )
+
+[node name="zchainsaw1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 913 )
+
+[node name="zchainsaw1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 914 )
+
+[node name="zchainsaw1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 915 )
+
+[node name="zgolem1" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 916 )
+
+[node name="zgolem1an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 917 )
+
+[node name="zgolem1b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 918 )
+
+[node name="zgolem1ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 919 )
+
+[node name="zgolem2" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 920 )
+
+[node name="zgolem2an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 921 )
+
+[node name="zgolem2b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 922 )
+
+[node name="zgolem2ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 923 )
+
+[node name="zgolem3" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 924 )
+
+[node name="zgolem3an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 925 )
+
+[node name="zgolem3b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 926 )
+
+[node name="zgolem3ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 927 )
+
+[node name="zgolem4" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 928 )
+
+[node name="zgolem4an" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 929 )
+
+[node name="zgolem4b" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 930 )
+
+[node name="zgolem4ban" type="Sprite" parent="."]
+position = Vector2( 1701.42, 450.109 )
+texture = ExtResource( 931 )
